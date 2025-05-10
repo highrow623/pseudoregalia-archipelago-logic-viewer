@@ -3,12 +3,15 @@
 import { TableRow } from "./tableRow";
 import { DifficultyIcon } from "../components/difficulty";
 import ObscureIcon from "../components/obscure";
-import { ItemIcons, allItems } from "../components/items";
+import { ItemIcons } from "../components/items";
 import rowData from "../data/pathing";
 import { useDifficulty } from "../context/difficulty";
+import ClickWrapper from "../components/clickWrapper";
+import { useItems, hasRequiredItems } from "../context/items";
 
 export default function PathingLogic() {
   const { difficulty, obscure, cycleDifficulty, toggleObscure } = useDifficulty();
+  const { items } = useItems();
 
   return (
     <div className="flex flex-col items-stretch p-8">
@@ -20,20 +23,24 @@ export default function PathingLogic() {
               <span className="select-none">Location</span>
             </th>
             <th className="text-slate-300 border border-gray-600 p-2 bg-slate-900 rounded-xs">
-              <div className="flex justify-start" onClick={cycleDifficulty}>
-                <DifficultyIcon difficulty={difficulty}/>
-                <p className="select-none ml-1">Difficulty</p>
+              <div className="flex justify-start">
+                <ClickWrapper onClick={cycleDifficulty} enabled>
+                  <DifficultyIcon difficulty={difficulty}/>
+                </ClickWrapper>
+                <p className="select-none ml-1">Logic Level</p>
               </div>
             </th>
             <th className="text-slate-300 border border-gray-600 p-2 bg-slate-900 rounded-xs">
-              <div className="flex justify-start" onClick={toggleObscure}>
-                <ObscureIcon obscure={obscure}/>
+              <div className="flex justify-start">
+                <ClickWrapper onClick={toggleObscure} enabled>
+                  <ObscureIcon obscure={obscure}/>
+                </ClickWrapper>
                 <p className="select-none ml-1">Obscure?</p>
               </div>
             </th>
             <th className="text-slate-300 border border-gray-600 p-2 bg-slate-900 rounded-xs">
               <div className="flex justify-start">
-                <ItemIcons items={allItems} />
+                <ItemIcons items={items} inHeader/>
                 <p className="select-none ml-1">Items</p>
               </div>
             </th>
@@ -43,7 +50,7 @@ export default function PathingLogic() {
           </tr>
         </thead>
         <tbody>
-          {rowData.filter(data => data.difficulty <= difficulty && (obscure || !data.obscure)).map(data => <TableRow key={data.id} rowData={data}/>)}
+          {rowData.filter(data => data.difficulty <= difficulty && (obscure || !data.obscure) && hasRequiredItems(items, data.items)).map(data => <TableRow key={data.id} rowData={data}/>)}
         </tbody>
       </table>
     </div>

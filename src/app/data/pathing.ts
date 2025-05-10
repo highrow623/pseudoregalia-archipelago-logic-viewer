@@ -1,5 +1,5 @@
 import { Difficulty } from "../components/difficulty";
-import { allItems, defaultItems, Items } from "../components/items";
+import { allItems, noItems, Items } from "../context/items";
 
 export type RowData = {
   id: string;
@@ -23,7 +23,7 @@ const rowData: RowData[] = [
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Hard,
     obscure: true,
-    items: defaultItems,
+    items: noItems,
   },
   {
     id: "3",
@@ -31,7 +31,7 @@ const rowData: RowData[] = [
     difficulty: Difficulty.Expert,
     obscure: false,
     items: {
-      ...defaultItems,
+      ...noItems,
       kicks: 1,
     },
   },
@@ -41,7 +41,7 @@ const rowData: RowData[] = [
     difficulty: Difficulty.Lunatic,
     obscure: false,
     items: {
-      ...defaultItems,
+      ...noItems,
       kicks: 2,
     },
   },
@@ -51,7 +51,7 @@ const rowData: RowData[] = [
     difficulty: Difficulty.Lunatic,
     obscure: false,
     items: {
-      ...defaultItems,
+      ...noItems,
       kicks: 3,
     },
   },
