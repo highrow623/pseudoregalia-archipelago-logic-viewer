@@ -1,21 +1,32 @@
-import { RowData } from "../pathing-logic/tableRow";
 import { Difficulty } from "../components/difficulty";
-import { allItems, defaultItems } from "../components/items";
+import { allItems, defaultItems, Items } from "../components/items";
+
+export type RowData = {
+  id: string;
+  location: string;
+  difficulty: Difficulty;
+  obscure: boolean;
+  items: Items;
+  samplePath?: string[];
+};
 
 const rowData: RowData[] = [
   {
+    id: "1",
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Normal,
     obscure: false,
     items: allItems,
   },
   {
+    id: "2",
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Hard,
     obscure: true,
     items: defaultItems,
   },
   {
+    id: "3",
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Expert,
     obscure: false,
@@ -25,6 +36,7 @@ const rowData: RowData[] = [
     },
   },
   {
+    id: "4",
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Lunatic,
     obscure: false,
@@ -34,6 +46,7 @@ const rowData: RowData[] = [
     },
   },
   {
+    id: "5",
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Lunatic,
     obscure: false,

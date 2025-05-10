@@ -1,15 +1,8 @@
 import { InformationCircleIcon } from "@heroicons/react/24/outline";
-import { Difficulty, DifficultyIcon, difficultyText } from "../components/difficulty";
+import { DifficultyIcon, difficultyText } from "../components/difficulty";
 import ObscureIcon from "../components/obscure";
-import { ItemIcons, Items } from "../components/items";
-
-export type RowData = {
-  location: string;
-  difficulty: Difficulty;
-  obscure: boolean;
-  items: Items;
-  samplePath?: string[];
-};
+import { ItemIcons } from "../components/items";
+import { RowData } from "../data/pathing";
 
 type TableRowProps = {
   rowData: RowData;

@@ -43,7 +43,7 @@ export default function PathingLogic() {
           </tr>
         </thead>
         <tbody>
-          {rowData.map((data, index) => <TableRow key={index} rowData={data}/>)}
+          {rowData.filter(data => data.difficulty <= difficulty && (obscure || !data.obscure)).map(data => <TableRow key={data.id} rowData={data}/>)}
         </tbody>
       </table>
     </div>
