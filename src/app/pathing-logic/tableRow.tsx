@@ -15,17 +15,19 @@ export function TableRow({ rowData }: TableRowProps) {
         {rowData.location}
       </td>
       <td className="border border-gray-600 p-2 bg-slate-800 rounded-xs flex">
-        <DifficultyIcon difficulty={rowData.difficulty}/>
-        <p className="text-slate-300 ml-1">{difficultyText(rowData.difficulty)}</p>
+        <DifficultyIcon difficulty={rowData.difficulty} />
+        <p className="text-slate-300 ml-1">
+          {difficultyText(rowData.difficulty)}
+        </p>
       </td>
       <td className="border border-gray-600 p-2 bg-slate-800 rounded-xs">
-        <ObscureIcon obscure={rowData.obscure}/>
+        <ObscureIcon obscure={rowData.obscure} />
       </td>
       <td className="border border-gray-600 p-2 bg-slate-800 rounded-xs">
-        <ItemIcons items={rowData.items}/>
+        <ItemIcons items={rowData.items} />
       </td>
       <td className="border border-gray-600 p-2 bg-slate-800 rounded-xs">
-        <InformationCircleIcon className="size-6 stroke-slate-300"/>
+        <InformationCircleIcon className="size-6 stroke-slate-300" />
       </td>
     </tr>
   );

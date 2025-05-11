@@ -18,7 +18,9 @@ const difficultyContextDefaultValues: difficultyContextType = {
   toggleObscure: () => {},
 };
 
-const DifficultyContext = createContext<difficultyContextType>(difficultyContextDefaultValues);
+const DifficultyContext = createContext<difficultyContextType>(
+  difficultyContextDefaultValues,
+);
 
 export function useDifficulty() {
   return useContext(DifficultyContext);
@@ -51,7 +53,10 @@ export function DifficultyProvider({ children }: Props) {
   };
 
   const toggleObscure = () => {
-    if (obscure && (difficulty === Difficulty.Expert || difficulty === Difficulty.Lunatic)) {
+    if (
+      obscure &&
+      (difficulty === Difficulty.Expert || difficulty === Difficulty.Lunatic)
+    ) {
       setDifficulty(Difficulty.Hard);
     }
     setObscure(!obscure);

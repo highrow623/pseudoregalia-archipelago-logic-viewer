@@ -162,7 +162,7 @@ export function ItemsProvider({ children }: Props) {
   const cycleKicks = () => {
     setItems({
       ...items,
-      kicks: (items.kicks+1)%5,
+      kicks: (items.kicks + 1) % 5,
     });
   };
 
@@ -202,8 +202,6 @@ export function ItemsProvider({ children }: Props) {
   };
 
   return (
-    <ItemsContext.Provider value={value}>
-      {children}
-    </ItemsContext.Provider>
+    <ItemsContext.Provider value={value}>{children}</ItemsContext.Provider>
   );
 }
