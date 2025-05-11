@@ -1,6 +1,9 @@
 "use client";
 
+import { useState } from "react";
+import { ChevronDownIcon } from "@heroicons/react/24/solid";
 import { TableRow } from "./tableRow";
+import Instructions from "./instructions";
 import { DifficultyIcon } from "../components/difficulty";
 import ObscureIcon from "../components/obscure";
 import { ItemIcons } from "../components/items";
@@ -10,6 +13,7 @@ import ClickWrapper from "../components/clickWrapper";
 import { useItems, hasRequiredItems } from "../context/items";
 
 export default function PathingLogic() {
+  const [collapsed, setCollapsed] = useState();
   const { difficulty, obscure, cycleDifficulty, toggleObscure } =
     useDifficulty();
   const { items } = useItems();
@@ -18,10 +22,7 @@ export default function PathingLogic() {
     <div className="flex flex-col items-stretch p-8">
       <p className="text-slate-200 text-3xl mb-2">Pathing Logic</p>
       <p className="text-slate-400 text-xl mb-5">apworld version: 0.8.0</p>
-      <p className="text-slate-300 mb-2">
-        This table shows which locations will be in logic based on your player
-        options and current items.
-      </p>
+      <Instructions />
       <br />
       <table className="table-auto border-separate border-spacing-1">
         <thead className="sticky top-0">
