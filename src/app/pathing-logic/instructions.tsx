@@ -91,7 +91,8 @@ export default function Instructions() {
         <Header>Location</Header>
         <Paragraph>
           A location in Archipelago. A single location can have multiple routes
-          if it's possible to get to the location with distinct sets of items.
+          if it&apos;s possible to get to the location with distinct sets of
+          items.
         </Paragraph>
         <Header>Logic Level</Header>
         <Paragraph>
@@ -108,10 +109,10 @@ export default function Instructions() {
         </Paragraph>
         <Header>Obscure?</Header>
         <Paragraph>
-          Whether the route requires "obscure knowledge." If a route is marked
-          as obscure but you have the option turned off in your player options,
-          that route is not in logic. This works in conjunction with logic
-          level.
+          Whether the route requires &quot;obscure knowledge.&quot; If a route
+          is marked as obscure but you have the option turned off in your player
+          options, that route is not in logic. This works in conjunction with
+          logic level.
         </Paragraph>
         <Paragraph>
           You can click the icon in the <Bold>Obscure?</Bold> header to toggle
@@ -119,8 +120,8 @@ export default function Instructions() {
           on for the <Expert /> and <Lunatic /> logic levels during generation,
           so this is also enforced in the table: when you cycle{" "}
           <Bold>Logic Level</Bold> to <Expert />, <Bold>Obscure?</Bold> will be
-          set to on if it wasn't before, and toggling <Bold>Obscure?</Bold> to
-          off will set <Bold>Logic Level</Bold> to <Hard /> if it was set to{" "}
+          set to on if it wasn&apos;t before, and toggling <Bold>Obscure?</Bold>{" "}
+          to off will set <Bold>Logic Level</Bold> to <Hard /> if it was set to{" "}
           <Expert /> or <Lunatic />.
         </Paragraph>
         <Paragraph>
@@ -136,9 +137,8 @@ export default function Instructions() {
           you have more than what is required.
         </Paragraph>
         <Paragraph>
-          Keep in mind that these are the
-          items you need for the entire route, so you might not need each item
-          every step of the way.
+          Keep in mind that these are the items you need for the entire route,
+          so you might not need each item every step of the way.
         </Paragraph>
         <ItemDescription src="/items/icon_attack.png" alt="Dream Breaker">
           Dream Breaker or at least one Progressive Dream Breaker item
@@ -170,8 +170,8 @@ export default function Instructions() {
           Ascendant Light
         </ItemDescription>
         <ItemDescription src="/items/tex_key.png" alt="Small Keys">
-          "Enough" small keys. Enough is 7 for <Normal /> and 6 for <Hard /> and
-          higher.
+          &quot;Enough&quot; small keys. Enough is 7 for <Normal /> and 6 for{" "}
+          <Hard /> and higher.
         </ItemDescription>
         <Paragraph>
           You can toggle items on and off by clicking the corresponding icons in
