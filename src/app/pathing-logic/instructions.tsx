@@ -59,7 +59,7 @@ export default function Instructions() {
 
   if (collapsed) {
     return (
-      <div className="border border-gray-600 p-2 bg-slate-900 rounded-sm font-bold flex mx-1">
+      <div className="border border-slate-600 p-2 bg-slate-900 rounded-sm font-bold flex mx-1">
         <ClickWrapper enabled onClick={() => setCollapsed(false)}>
           <ChevronRightIcon className="size-6 stroke-slate-300" />
         </ClickWrapper>
@@ -70,13 +70,13 @@ export default function Instructions() {
 
   return (
     <>
-      <div className="border border-gray-600 p-2 bg-slate-900 rounded-t-sm font-bold flex mx-1">
+      <div className="border border-slate-600 p-2 bg-slate-900 rounded-t-sm font-bold flex mx-1">
         <ClickWrapper enabled onClick={() => setCollapsed(true)}>
           <ChevronDownIcon className="size-6 stroke-slate-300" />
         </ClickWrapper>
         <span className="text-slate-300 ml-1 select-none">How to Use</span>
       </div>
-      <div className="text-slate-300 border-b border-r border-l border-gray-600 p-2 bg-slate-800 rounded-b-sm mx-1">
+      <div className="text-slate-300 border-b border-r border-l border-slate-600 p-2 bg-slate-800 rounded-b-sm mx-1">
         <p>
           This table shows which locations are in logic based on your player
           options and current items. Each row represents a viable route to the
@@ -84,15 +84,15 @@ export default function Instructions() {
         </p>
         <Paragraph>
           Poptracker is the fastest way to see <Italics>what</Italics> is in
-          logic, plus it has nice features like autotracking. But this table
-          will tell you <Italics>why</Italics> a location is in logic and how
-          you might get there.
+          logic, plus it has nice features like autotracking and maps. But this
+          table will tell you <Italics>why</Italics> a location is in logic and
+          how you might get there.
         </Paragraph>
         <Header>Location</Header>
         <Paragraph>
-          A location in Archipelago. A single location can have multiple routes
-          if it&apos;s possible to get to the location with distinct sets of
-          items.
+          A Pseudoregalia location in Archipelago. A single location can have
+          multiple routes if it&apos;s possible to get to the location with
+          distinct sets of items.
         </Paragraph>
         <Header>Logic Level</Header>
         <Paragraph>
@@ -116,7 +116,7 @@ export default function Instructions() {
         </Paragraph>
         <Paragraph>
           You can click the icon in the <Bold>Obscure?</Bold> header to toggle
-          whether obscure routes should be in logic. Obscure knowledge is forced
+          whether obscure routes should be filtered. Obscure knowledge is forced
           on for the <Expert /> and <Lunatic /> logic levels during generation,
           so this is also enforced in the table: when you cycle{" "}
           <Bold>Logic Level</Bold> to <Expert />, <Bold>Obscure?</Bold> will be

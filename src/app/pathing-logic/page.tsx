@@ -17,7 +17,9 @@ export default function PathingLogic() {
 
   return (
     <div className="flex flex-col items-stretch p-8">
-      <p className="text-slate-200 text-3xl ml-1">Pathing Logic</p>
+      <p className="text-slate-200 text-3xl ml-1">
+        Pseudoregalia Archipelago Logic Viewer
+      </p>
       <p className="text-slate-400 text-xl mt-2 ml-1">apworld version: 0.8.0</p>
       <br />
       <Instructions />
@@ -25,10 +27,10 @@ export default function PathingLogic() {
       <table className="table-fixed border-separate border-spacing-1">
         <thead className="sticky top-0">
           <tr>
-            <th className="text-slate-300 border border-gray-600 p-2 bg-slate-900 rounded-xs text-start w-1/3">
+            <th className="text-slate-300 border border-slate-600 p-2 bg-slate-900 rounded-xs text-start w-1/3">
               <span className="select-none">Location</span>
             </th>
-            <th className="text-slate-300 border border-gray-600 p-2 bg-slate-900 rounded-xs w-1/9">
+            <th className="text-slate-300 border border-slate-600 p-2 bg-slate-900 rounded-xs w-1/9">
               <div className="flex justify-start">
                 <ClickWrapper onClick={cycleDifficulty} enabled>
                   <DifficultyIcon difficulty={difficulty} />
@@ -36,7 +38,7 @@ export default function PathingLogic() {
                 <p className="select-none ml-1">Logic Level</p>
               </div>
             </th>
-            <th className="text-slate-300 border border-gray-600 p-2 bg-slate-900 rounded-xs w-1/9">
+            <th className="text-slate-300 border border-slate-600 p-2 bg-slate-900 rounded-xs w-1/9">
               <div className="flex justify-start">
                 <ClickWrapper onClick={toggleObscure} enabled>
                   <ObscureIcon obscure={obscure} />
@@ -44,13 +46,13 @@ export default function PathingLogic() {
                 <p className="select-none ml-1">Obscure?</p>
               </div>
             </th>
-            <th className="text-slate-300 border border-gray-600 p-2 bg-slate-900 rounded-xs w-1/3">
+            <th className="text-slate-300 border border-slate-600 p-2 bg-slate-900 rounded-xs w-1/3">
               <div className="flex justify-start">
                 <ItemIcons items={items} inHeader />
                 <p className="select-none ml-1">Items</p>
               </div>
             </th>
-            <th className="text-slate-300 border border-gray-600 p-2 bg-slate-900 rounded-xs text-start">
+            <th className="text-slate-300 border border-slate-600 p-2 bg-slate-900 rounded-xs text-start">
               <span className="select-none">Sample Path</span>
             </th>
           </tr>
