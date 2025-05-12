@@ -146,8 +146,8 @@ export default function Instructions() {
         <Paragraph>
           Also, since obscure knowledge is forced on for the <Expert /> and{" "}
           <Lunatic /> logic levels, each route at those levels is automatically
-          marked as obscure, so they may or may not require what could be
-          considered obscure knowledge.
+          marked as obscure, so they may or may actually not require what could
+          be considered obscure knowledge.
         </Paragraph>
         <Header>Items</Header>
         <Paragraph>
