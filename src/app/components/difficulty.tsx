@@ -9,9 +9,30 @@ export enum Difficulty {
 
 type DifficultyIconProps = {
   difficulty: Difficulty;
+  inline?: boolean;
 };
 
-export function DifficultyIcon({ difficulty }: DifficultyIconProps) {
+export function DifficultyIcon({ difficulty, inline }: DifficultyIconProps) {
+  if (inline) {
+    switch (difficulty) {
+      case Difficulty.Normal:
+        return (
+          <FireIcon className="size-6 stroke-green-600 fill-green-300 inline" />
+        );
+      case Difficulty.Hard:
+        return (
+          <FireIcon className="size-6 stroke-amber-600 fill-amber-300 inline" />
+        );
+      case Difficulty.Expert:
+        return (
+          <FireIcon className="size-6 stroke-red-600 fill-red-300 inline" />
+        );
+      case Difficulty.Lunatic:
+        return (
+          <FireIcon className="size-6 stroke-fuchsia-600 fill-fuchsia-300 inline" />
+        );
+    }
+  }
   switch (difficulty) {
     case Difficulty.Normal:
       return <FireIcon className="size-6 stroke-green-600 fill-green-300" />;

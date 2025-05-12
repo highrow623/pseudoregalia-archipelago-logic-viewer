@@ -2,21 +2,39 @@ import { useState, ReactNode } from "react";
 import { ChevronDownIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import ClickWrapper from "../components/clickWrapper";
+import ObscureIcon from "../components/obscure";
+import { Difficulty, DifficultyIcon } from "../components/difficulty";
 
 function Normal() {
-  return <span className="text-green-600">Normal</span>;
+  return (
+    <>
+      <DifficultyIcon difficulty={Difficulty.Normal} inline /> Normal
+    </>
+  );
 }
 
 function Hard() {
-  return <span className="text-amber-600">Hard</span>;
+  return (
+    <>
+      <DifficultyIcon difficulty={Difficulty.Hard} inline /> Hard
+    </>
+  );
 }
 
 function Expert() {
-  return <span className="text-red-600">Expert</span>;
+  return (
+    <>
+      <DifficultyIcon difficulty={Difficulty.Expert} inline /> Expert
+    </>
+  );
 }
 
 function Lunatic() {
-  return <span className="text-fuchsia-600">Lunatic</span>;
+  return (
+    <>
+      <DifficultyIcon difficulty={Difficulty.Lunatic} inline /> Lunatic
+    </>
+  );
 }
 
 type ChildrenProps = {
@@ -120,9 +138,10 @@ export default function Instructions() {
           on for the <Expert /> and <Lunatic /> logic levels during generation,
           so this is also enforced in the table: when you cycle{" "}
           <Bold>Logic Level</Bold> to <Expert />, <Bold>Obscure?</Bold> will be
-          set to on if it wasn&apos;t before, and toggling <Bold>Obscure?</Bold>{" "}
-          to off will set <Bold>Logic Level</Bold> to <Hard /> if it was set to{" "}
-          <Expert /> or <Lunatic />.
+          set to <ObscureIcon inline obscure /> if it wasn&apos;t before, and
+          toggling <Bold>Obscure?</Bold> to <ObscureIcon inline /> will set{" "}
+          <Bold>Logic Level</Bold> to <Hard /> if it was set to <Expert /> or{" "}
+          <Lunatic />.
         </Paragraph>
         <Paragraph>
           Also, since obscure knowledge is forced on for the <Expert /> and{" "}
