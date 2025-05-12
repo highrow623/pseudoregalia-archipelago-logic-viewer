@@ -203,7 +203,9 @@ export default function Instructions() {
           Each route in the table represents getting to a location with a
           certain set of items, but there may be multiple ways to actually
           navigate the world to get there. This column gives one possibility.
-          TODO
+        </Paragraph>
+        <Paragraph>
+          Hover over the icon in the row to see a tooltip with the sample path.
         </Paragraph>
       </div>
     </>

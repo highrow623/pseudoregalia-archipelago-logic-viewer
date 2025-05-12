@@ -3,12 +3,25 @@ import { DifficultyIcon, difficultyText } from "../components/difficulty";
 import ObscureIcon from "../components/obscure";
 import { ItemIcons } from "../components/items";
 import { RowData } from "../data/pathing";
+import Tooltip from "../components/tooltip";
 
 type TableRowProps = {
   rowData: RowData;
 };
 
 export function TableRow({ rowData }: TableRowProps) {
+  const content = rowData.samplePath.map((step, index) => {
+    if (index === 0) {
+      return <span key={index}>{step}</span>;
+    }
+    return (
+      <span key={index}>
+        <br />
+        {"→ " + step}
+      </span>
+    );
+  });
+
   return (
     <tr>
       <td className="border border-slate-600 p-2 bg-slate-800 rounded-xs text-slate-300">
@@ -27,7 +40,9 @@ export function TableRow({ rowData }: TableRowProps) {
         <ItemIcons items={rowData.items} />
       </td>
       <td className="border border-slate-600 p-2 bg-slate-800 rounded-xs">
-        <InformationCircleIcon className="size-6 stroke-slate-300" />
+        <Tooltip content={content}>
+          <InformationCircleIcon className="size-6 stroke-slate-300 group-hover:stroke-slate-100" />
+        </Tooltip>
       </td>
     </tr>
   );

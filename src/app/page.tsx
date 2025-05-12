@@ -25,7 +25,7 @@ export default function PathingLogic() {
       <Instructions />
       <br />
       <table className="table-fixed border-separate border-spacing-1">
-        <thead className="sticky top-0">
+        <thead className="sticky top-0 z-1">
           <tr>
             <th className="text-slate-300 border border-slate-600 p-2 bg-slate-900 rounded-xs text-start w-1/3">
               <span className="select-none">Location</span>
