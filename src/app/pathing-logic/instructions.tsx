@@ -189,8 +189,8 @@ export default function Instructions() {
           Ascendant Light
         </ItemDescription>
         <ItemDescription src="/items/tex_key.png" alt="Small Keys">
-          &quot;Enough&quot; small keys. Enough is 7 for <Normal /> and 6 for{" "}
-          <Hard /> and higher.
+          &quot;Enough&quot; small keys. This is 7 for <Normal /> and 6 for{" "}
+          <Hard /> and higher
         </ItemDescription>
         <Paragraph>
           You can toggle items on and off by clicking the corresponding icons in
