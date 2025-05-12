@@ -31,20 +31,20 @@ export default function PathingLogic() {
               <span className="select-none">Location</span>
             </th>
             <th className="text-slate-300 border border-slate-600 p-2 bg-slate-900 rounded-xs w-1/9">
-              <div className="flex justify-start">
-                <ClickWrapper onClick={cycleDifficulty} enabled>
+              <ClickWrapper onClick={cycleDifficulty} enabled>
+                <div className="flex justify-start">
                   <DifficultyIcon difficulty={difficulty} />
-                </ClickWrapper>
-                <p className="select-none ml-1">Logic Level</p>
-              </div>
+                  <p className="select-none ml-1">Logic Level</p>
+                </div>
+              </ClickWrapper>
             </th>
             <th className="text-slate-300 border border-slate-600 p-2 bg-slate-900 rounded-xs w-1/9">
-              <div className="flex justify-start">
-                <ClickWrapper onClick={toggleObscure} enabled>
+              <ClickWrapper onClick={toggleObscure} enabled>
+                <div className="flex justify-start">
                   <ObscureIcon obscure={obscure} />
-                </ClickWrapper>
-                <p className="select-none ml-1">Obscure?</p>
-              </div>
+                  <p className="select-none ml-1">Obscure?</p>
+                </div>
+              </ClickWrapper>
             </th>
             <th className="text-slate-300 border border-slate-600 p-2 bg-slate-900 rounded-xs w-1/3">
               <div className="flex justify-start">
