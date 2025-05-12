@@ -77,23 +77,23 @@ export default function Instructions() {
 
   if (collapsed) {
     return (
-      <div className="border border-slate-600 p-2 bg-slate-900 rounded-sm font-bold flex mx-1">
-        <ClickWrapper enabled onClick={() => setCollapsed(false)}>
+      <ClickWrapper enabled onClick={() => setCollapsed(false)}>
+        <div className="border border-slate-600 p-2 bg-slate-900 rounded-sm font-bold flex mx-1">
           <ChevronRightIcon className="size-6 stroke-slate-300" />
-        </ClickWrapper>
-        <span className="text-slate-300 ml-1 select-none">How to Use</span>
-      </div>
+          <span className="text-slate-300 ml-1 select-none">How to Use</span>
+        </div>
+      </ClickWrapper>
     );
   }
 
   return (
     <>
-      <div className="border border-slate-600 p-2 bg-slate-900 rounded-t-sm font-bold flex mx-1">
-        <ClickWrapper enabled onClick={() => setCollapsed(true)}>
+      <ClickWrapper enabled onClick={() => setCollapsed(true)}>
+        <div className="border border-slate-600 p-2 bg-slate-900 rounded-t-sm font-bold flex mx-1">
           <ChevronDownIcon className="size-6 stroke-slate-300" />
-        </ClickWrapper>
-        <span className="text-slate-300 ml-1 select-none">How to Use</span>
-      </div>
+          <span className="text-slate-300 ml-1 select-none">How to Use</span>
+        </div>
+      </ClickWrapper>
       <div className="text-slate-300 border-b border-r border-l border-slate-600 p-2 bg-slate-800 rounded-b-sm mx-1">
         <p>
           This table shows which locations are in logic based on your player
@@ -122,8 +122,8 @@ export default function Instructions() {
         </Paragraph>
         <Paragraph>
           You can filter the table by choosing a logic level that matches your
-          player options. Click on the icon in the <Bold>Logic Level</Bold>{" "}
-          header to cycle between the different levels.
+          player options. Click on the <Bold>Logic Level</Bold> header to cycle
+          between the different levels.
         </Paragraph>
         <Header>Obscure?</Header>
         <Paragraph>
@@ -133,13 +133,13 @@ export default function Instructions() {
           logic level.
         </Paragraph>
         <Paragraph>
-          You can click the icon in the <Bold>Obscure?</Bold> header to toggle
-          whether obscure routes should be filtered. Obscure knowledge is forced
-          on for the <Expert /> and <Lunatic /> logic levels during generation,
-          so this is also enforced in the table: when you cycle{" "}
-          <Bold>Logic Level</Bold> to <Expert />, <Bold>Obscure?</Bold> will be
-          set to <ObscureIcon inline obscure /> if it wasn&apos;t before, and
-          toggling <Bold>Obscure?</Bold> to <ObscureIcon inline /> will set{" "}
+          You can click the <Bold>Obscure?</Bold> header to toggle whether
+          obscure routes should be filtered. Obscure knowledge is forced on for
+          the <Expert /> and <Lunatic /> logic levels during generation, so this
+          is also enforced in the table: when you cycle <Bold>Logic Level</Bold>{" "}
+          to <Expert />, <Bold>Obscure?</Bold> will be set to{" "}
+          <ObscureIcon inline obscure /> if it wasn&apos;t before, and toggling{" "}
+          <Bold>Obscure?</Bold> to <ObscureIcon inline /> will set{" "}
           <Bold>Logic Level</Bold> to <Hard /> if it was set to <Expert /> or{" "}
           <Lunatic />.
         </Paragraph>
