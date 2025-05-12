@@ -6,18 +6,18 @@ import ClickWrapper from "./clickWrapper";
 
 function kicksSrc(kicks: number): string {
   if (kicks === 0) {
-    return "/items/icon_HeliacalPower_grey.png";
+    return "/pseudoregalia-archipelago-logic-viewer/items/icon_HeliacalPower_grey.png";
   }
   if (kicks === 1) {
-    return "/items/icon_HeliacalPower_1.png";
+    return "/pseudoregalia-archipelago-logic-viewer/items/icon_HeliacalPower_1.png";
   }
   if (kicks === 2) {
-    return "/items/icon_HeliacalPower_2.png";
+    return "/pseudoregalia-archipelago-logic-viewer/items/icon_HeliacalPower_2.png";
   }
   if (kicks === 3) {
-    return "/items/icon_HeliacalPower_3.png";
+    return "/pseudoregalia-archipelago-logic-viewer/items/icon_HeliacalPower_3.png";
   }
-  return "/items/icon_HeliacalPower.png";
+  return "/pseudoregalia-archipelago-logic-viewer/items/icon_HeliacalPower.png";
 }
 
 type ItemIconsProps = {
@@ -45,8 +45,8 @@ export function ItemIcons({ items, inHeader }: ItemIconsProps) {
         <Image
           src={
             items.dreamBreaker
-              ? "/items/icon_attack.png"
-              : "/items/icon_attack_grey.png"
+              ? "/pseudoregalia-archipelago-logic-viewer/items/icon_attack.png"
+              : "/pseudoregalia-archipelago-logic-viewer/items/icon_attack_grey.png"
           }
           alt="Dream Breaker"
           width={24}
@@ -57,8 +57,8 @@ export function ItemIcons({ items, inHeader }: ItemIconsProps) {
         <Image
           src={
             items.strikebreak
-              ? "/items/icon_chargeAttack.png"
-              : "/items/icon_chargeAttack_grey.png"
+              ? "/pseudoregalia-archipelago-logic-viewer/items/icon_chargeAttack.png"
+              : "/pseudoregalia-archipelago-logic-viewer/items/icon_chargeAttack_grey.png"
           }
           alt="Strikebreak"
           width={24}
@@ -69,8 +69,8 @@ export function ItemIcons({ items, inHeader }: ItemIconsProps) {
         <Image
           src={
             items.soulCutter
-              ? "/items/icon_Projectile.png"
-              : "/items/icon_Projectile_grey.png"
+              ? "/pseudoregalia-archipelago-logic-viewer/items/icon_Projectile.png"
+              : "/pseudoregalia-archipelago-logic-viewer/items/icon_Projectile_grey.png"
           }
           alt="Soul Cutter"
           width={24}
@@ -80,7 +80,9 @@ export function ItemIcons({ items, inHeader }: ItemIconsProps) {
       <ClickWrapper enabled={inHeader} onClick={toggleSlide}>
         <Image
           src={
-            items.slide ? "/items/icon_slide.png" : "/items/icon_slide_grey.png"
+            items.slide
+              ? "/pseudoregalia-archipelago-logic-viewer/items/icon_slide.png"
+              : "/pseudoregalia-archipelago-logic-viewer/items/icon_slide_grey.png"
           }
           alt="Slide"
           width={24}
@@ -91,8 +93,8 @@ export function ItemIcons({ items, inHeader }: ItemIconsProps) {
         <Image
           src={
             items.solarWind
-              ? "/items/icon_slideJump.png"
-              : "/items/icon_slideJump_grey.png"
+              ? "/pseudoregalia-archipelago-logic-viewer/items/icon_slideJump.png"
+              : "/pseudoregalia-archipelago-logic-viewer/items/icon_slideJump_grey.png"
           }
           alt="Solar Wind"
           width={24}
@@ -103,8 +105,8 @@ export function ItemIcons({ items, inHeader }: ItemIconsProps) {
         <Image
           src={
             items.sunsetter
-              ? "/items/icon_plunge.png"
-              : "/items/icon_plunge_grey.png"
+              ? "/pseudoregalia-archipelago-logic-viewer/items/icon_plunge.png"
+              : "/pseudoregalia-archipelago-logic-viewer/items/icon_plunge_grey.png"
           }
           alt="Sunsetter"
           width={24}
@@ -118,8 +120,8 @@ export function ItemIcons({ items, inHeader }: ItemIconsProps) {
         <Image
           src={
             items.clingGem
-              ? "/items/icon_clingGem.png"
-              : "/items/icon_clingGem_grey.png"
+              ? "/pseudoregalia-archipelago-logic-viewer/items/icon_clingGem.png"
+              : "/pseudoregalia-archipelago-logic-viewer/items/icon_clingGem_grey.png"
           }
           alt="Cling Gem"
           width={24}
@@ -130,8 +132,8 @@ export function ItemIcons({ items, inHeader }: ItemIconsProps) {
         <Image
           src={
             items.ascendantLight
-              ? "/items/icon_Light.png"
-              : "/items/icon_Light_grey.png"
+              ? "/pseudoregalia-archipelago-logic-viewer/items/icon_Light.png"
+              : "/pseudoregalia-archipelago-logic-viewer/items/icon_Light_grey.png"
           }
           alt="Ascendant Light"
           width={24}
@@ -141,7 +143,9 @@ export function ItemIcons({ items, inHeader }: ItemIconsProps) {
       <ClickWrapper enabled={inHeader} onClick={toggleSmallKeys}>
         <Image
           src={
-            items.smallKeys ? "/items/tex_key.png" : "/items/tex_key_grey.png"
+            items.smallKeys
+              ? "/pseudoregalia-archipelago-logic-viewer/items/tex_key.png"
+              : "/pseudoregalia-archipelago-logic-viewer/items/tex_key_grey.png"
           }
           alt="Small Keys"
           width={24}

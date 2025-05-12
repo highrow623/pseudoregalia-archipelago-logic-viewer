@@ -159,36 +159,66 @@ export default function Instructions() {
           Keep in mind that these are the items you need for the entire route,
           so you might not need each item every step of the way.
         </Paragraph>
-        <ItemDescription src="/items/icon_attack.png" alt="Dream Breaker">
+        <ItemDescription
+          src="/pseudoregalia-archipelago-logic-viewer/items/icon_attack.png"
+          alt="Dream Breaker"
+        >
           Dream Breaker or at least one Progressive Dream Breaker item
         </ItemDescription>
-        <ItemDescription src="/items/icon_chargeAttack.png" alt="Strikebreak">
+        <ItemDescription
+          src="/pseudoregalia-archipelago-logic-viewer/items/icon_chargeAttack.png"
+          alt="Strikebreak"
+        >
           Strikebreak or at least two Progressive Dream Breaker items
         </ItemDescription>
-        <ItemDescription src="/items/icon_Projectile.png" alt="Soul Cutter">
+        <ItemDescription
+          src="/pseudoregalia-archipelago-logic-viewer/items/icon_Projectile.png"
+          alt="Soul Cutter"
+        >
           Soul Cutter or at least three Progressive Dream Breaker items
         </ItemDescription>
-        <ItemDescription src="/items/icon_slide.png" alt="Slide">
+        <ItemDescription
+          src="/pseudoregalia-archipelago-logic-viewer/items/icon_slide.png"
+          alt="Slide"
+        >
           Slide or at least one Progressive Slide item
         </ItemDescription>
-        <ItemDescription src="/items/icon_slideJump.png" alt="Solar Wind">
+        <ItemDescription
+          src="/pseudoregalia-archipelago-logic-viewer/items/icon_slideJump.png"
+          alt="Solar Wind"
+        >
           Solar Wind or at least two Progressive Slide items
         </ItemDescription>
-        <ItemDescription src="/items/icon_plunge.png" alt="Sunsetter">
+        <ItemDescription
+          src="/pseudoregalia-archipelago-logic-viewer/items/icon_plunge.png"
+          alt="Sunsetter"
+        >
           Sunsetter
         </ItemDescription>
-        <ItemDescription src="/items/icon_HeliacalPower.png" alt="Kicks">
+        <ItemDescription
+          src="/pseudoregalia-archipelago-logic-viewer/items/icon_HeliacalPower.png"
+          alt="Kicks"
+        >
           Total kicks from Sun Greaves (+3), Heliacal Power (+1 each), and Air
           Kick (+1 each). The symbol is filled one quarter for each required
           kick.
         </ItemDescription>
-        <ItemDescription src="/items/icon_clingGem.png" alt="Cling Gem">
+        <ItemDescription
+          src="/pseudoregalia-archipelago-logic-viewer/items/icon_clingGem.png"
+          alt="Cling Gem"
+        >
           Cling Gem
         </ItemDescription>
-        <ItemDescription src="/items/icon_Light.png" alt="Ascendant Light">
+        <ItemDescription
+          src="/pseudoregalia-archipelago-logic-viewer/items/icon_Light.png"
+          alt="Ascendant Light"
+        >
           Ascendant Light
         </ItemDescription>
-        <ItemDescription src="/items/tex_key.png" alt="Small Keys">
+        <ItemDescription
+          src="/pseudoregalia-archipelago-logic-viewer/items/tex_key.png"
+          alt="Small Keys"
+        >
           &quot;Enough&quot; small keys. This is 7 for <Normal /> and 6 for{" "}
           <Hard /> and higher
         </ItemDescription>
