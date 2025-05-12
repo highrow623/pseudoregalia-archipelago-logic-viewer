@@ -77,12 +77,12 @@ export default function Instructions() {
 
   if (collapsed) {
     return (
-      <div className="border border-slate-600 p-2 bg-slate-900 rounded-sm font-bold flex mx-1">
-        <ClickWrapper enabled onClick={() => setCollapsed(false)}>
+      <ClickWrapper enabled onClick={() => setCollapsed(false)}>
+        <div className="border border-slate-600 p-2 bg-slate-900 rounded-sm font-bold flex mx-1">
           <ChevronRightIcon className="size-6 stroke-slate-300" />
-        </ClickWrapper>
-        <span className="text-slate-300 ml-1 select-none">How to Use</span>
-      </div>
+          <span className="text-slate-300 ml-1 select-none">How to Use</span>
+        </div>
+      </ClickWrapper>
     );
   }
 
