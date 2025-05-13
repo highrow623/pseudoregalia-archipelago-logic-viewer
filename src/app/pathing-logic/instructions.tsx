@@ -1,9 +1,11 @@
-import { useState, ReactNode } from "react";
+import { useState, ReactNode, useEffect } from "react";
 import { ChevronDownIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import ClickWrapper from "../components/clickWrapper";
 import ObscureIcon from "../components/obscure";
 import { Difficulty, DifficultyIcon } from "../components/difficulty";
+
+const collapsedStorageKey = "instructionsCollapsed";
 
 function Normal() {
   return (
@@ -75,9 +77,19 @@ function ItemDescription({ src, alt, children }: ItemDescriptionProps) {
 export default function Instructions() {
   const [collapsed, setCollapsed] = useState(true);
 
+  useEffect(() => {
+    setCollapsed(localStorage.getItem(collapsedStorageKey) === "true");
+  }, []);
+
   if (collapsed) {
     return (
-      <ClickWrapper enabled onClick={() => setCollapsed(false)}>
+      <ClickWrapper
+        enabled
+        onClick={() => {
+          setCollapsed(false);
+          localStorage.setItem(collapsedStorageKey, "false");
+        }}
+      >
         <div className="border border-slate-600 p-2 bg-slate-900 rounded-sm font-bold flex mx-1">
           <ChevronRightIcon className="size-6 stroke-slate-300" />
           <span className="text-slate-300 ml-1 select-none">How to Use</span>
@@ -88,7 +100,13 @@ export default function Instructions() {
 
   return (
     <>
-      <ClickWrapper enabled onClick={() => setCollapsed(true)}>
+      <ClickWrapper
+        enabled
+        onClick={() => {
+          setCollapsed(true);
+          localStorage.setItem(collapsedStorageKey, "true");
+        }}
+      >
         <div className="border border-slate-600 p-2 bg-slate-900 rounded-t-sm font-bold flex mx-1">
           <ChevronDownIcon className="size-6 stroke-slate-300" />
           <span className="text-slate-300 ml-1 select-none">How to Use</span>
