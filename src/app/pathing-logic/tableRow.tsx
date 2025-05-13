@@ -10,17 +10,14 @@ type TableRowProps = {
 };
 
 export function TableRow({ rowData }: TableRowProps) {
-  const content = rowData.samplePath.map((step, index) => {
-    if (index === 0) {
-      return <span key={index}>{step}</span>;
-    }
-    return (
-      <span key={index}>
-        <br />
-        {"→ " + step}
-      </span>
-    );
-  });
+  const content = (
+    <ul className="list-disc pl-5">
+      {rowData.samplePath.map((step, index) => (
+        <li key={index}>{step}</li>
+      ))}
+      <li>{rowData.location}</li>
+    </ul>
+  );
 
   return (
     <tr>

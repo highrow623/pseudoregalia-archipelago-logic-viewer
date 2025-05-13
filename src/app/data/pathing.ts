@@ -19,7 +19,7 @@ const rowData: RowData[] = [
     items: {
       ...noItems,
     },
-    samplePath: ["Dungeon Mirror", "Dilapidated Dungeon - Dream Breaker"],
+    samplePath: ["Dungeon Mirror"],
   },
   {
     id: "1",
@@ -30,11 +30,7 @@ const rowData: RowData[] = [
       ...noItems,
       dreamBreaker: true,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dilapidated Dungeon - Slide",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide"],
   },
   {
     id: "2",
@@ -45,11 +41,7 @@ const rowData: RowData[] = [
       ...noItems,
       sunsetter: true,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dilapidated Dungeon - Slide",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide"],
   },
   {
     id: "3",
@@ -72,7 +64,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Dungeon => Castle",
-      "Dilapidated Dungeon - Alcove Near Mirror",
     ],
   },
   {
@@ -91,7 +82,6 @@ const rowData: RowData[] = [
       "Dungeon Slide",
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
-      "Dilapidated Dungeon - Alcove Near Mirror",
     ],
   },
   {
@@ -116,7 +106,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Dungeon => Castle",
-      "Dilapidated Dungeon - Alcove Near Mirror",
     ],
   },
   {
@@ -135,7 +124,6 @@ const rowData: RowData[] = [
       "Dungeon Slide",
       "Dungeon Escape Lower",
       "Dungeon Escape Upper",
-      "Dilapidated Dungeon - Dark Orbs",
     ],
   },
   {
@@ -155,7 +143,6 @@ const rowData: RowData[] = [
       "Dungeon Slide",
       "Dungeon Escape Lower",
       "Dungeon Escape Upper",
-      "Dilapidated Dungeon - Dark Orbs",
     ],
   },
   {
@@ -174,7 +161,6 @@ const rowData: RowData[] = [
       "Dungeon Slide",
       "Dungeon Escape Lower",
       "Dungeon Escape Upper",
-      "Dilapidated Dungeon - Dark Orbs",
     ],
   },
   {
@@ -195,7 +181,6 @@ const rowData: RowData[] = [
       "Dungeon Slide",
       "Dungeon Escape Lower",
       "Dungeon Escape Upper",
-      "Dilapidated Dungeon - Dark Orbs",
     ],
   },
   {
@@ -214,7 +199,6 @@ const rowData: RowData[] = [
       "Dungeon Slide",
       "Dungeon Escape Lower",
       "Dungeon Escape Upper",
-      "Dilapidated Dungeon - Dark Orbs",
     ],
   },
   {
@@ -234,7 +218,6 @@ const rowData: RowData[] = [
       "Dungeon Slide",
       "Dungeon Escape Lower",
       "Dungeon Escape Upper",
-      "Dilapidated Dungeon - Dark Orbs",
     ],
   },
   {
@@ -253,7 +236,6 @@ const rowData: RowData[] = [
       "Dungeon Slide",
       "Dungeon Escape Lower",
       "Dungeon Escape Upper",
-      "Dilapidated Dungeon - Dark Orbs",
     ],
   },
   {
@@ -272,7 +254,6 @@ const rowData: RowData[] = [
       "Dungeon Slide",
       "Dungeon Escape Lower",
       "Dungeon Escape Upper",
-      "Dilapidated Dungeon - Dark Orbs",
     ],
   },
   {
@@ -290,7 +271,6 @@ const rowData: RowData[] = [
       "Dungeon Slide",
       "Dungeon Escape Lower",
       "Dungeon Escape Upper",
-      "Dilapidated Dungeon - Dark Orbs",
     ],
   },
   {
@@ -311,7 +291,6 @@ const rowData: RowData[] = [
       "Dungeon Slide",
       "Dungeon Escape Lower",
       "Dungeon Escape Upper",
-      "Dilapidated Dungeon - Dark Orbs",
     ],
   },
   {
@@ -330,7 +309,6 @@ const rowData: RowData[] = [
       "Dungeon Slide",
       "Dungeon Escape Lower",
       "Dungeon Escape Upper",
-      "Dilapidated Dungeon - Dark Orbs",
     ],
   },
   {
@@ -349,7 +327,6 @@ const rowData: RowData[] = [
       "Dungeon Slide",
       "Dungeon Escape Lower",
       "Dungeon Escape Upper",
-      "Dilapidated Dungeon - Dark Orbs",
     ],
   },
   {
@@ -369,7 +346,6 @@ const rowData: RowData[] = [
       "Dungeon Slide",
       "Dungeon Escape Lower",
       "Dungeon Escape Upper",
-      "Dilapidated Dungeon - Dark Orbs",
     ],
   },
   {
@@ -388,7 +364,6 @@ const rowData: RowData[] = [
       "Dungeon Slide",
       "Dungeon Escape Lower",
       "Dungeon Escape Upper",
-      "Dilapidated Dungeon - Dark Orbs",
     ],
   },
   {
@@ -407,7 +382,6 @@ const rowData: RowData[] = [
       "Dungeon Slide",
       "Dungeon Escape Lower",
       "Dungeon Escape Upper",
-      "Dilapidated Dungeon - Dark Orbs",
     ],
   },
   {
@@ -434,7 +408,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Past Poles",
     ],
   },
   {
@@ -462,7 +435,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Past Poles",
     ],
   },
   {
@@ -490,7 +462,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Past Poles",
     ],
   },
   {
@@ -504,12 +475,7 @@ const rowData: RowData[] = [
       slide: true,
       kicks: 3,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Past Poles",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "25",
@@ -523,12 +489,7 @@ const rowData: RowData[] = [
       kicks: 1,
       clingGem: true,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Past Poles",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "26",
@@ -542,12 +503,7 @@ const rowData: RowData[] = [
       sunsetter: true,
       clingGem: true,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Past Poles",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "27",
@@ -574,7 +530,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Past Poles",
     ],
   },
   {
@@ -602,7 +557,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Past Poles",
     ],
   },
   {
@@ -616,12 +570,7 @@ const rowData: RowData[] = [
       sunsetter: true,
       kicks: 3,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Past Poles",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "30",
@@ -634,12 +583,7 @@ const rowData: RowData[] = [
       sunsetter: true,
       clingGem: true,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Past Poles",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "31",
@@ -665,7 +609,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Past Poles",
     ],
   },
   {
@@ -692,7 +635,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Past Poles",
     ],
   },
   {
@@ -706,12 +648,7 @@ const rowData: RowData[] = [
       slide: true,
       kicks: 2,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Past Poles",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "34",
@@ -724,12 +661,7 @@ const rowData: RowData[] = [
       slide: true,
       clingGem: true,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Past Poles",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "35",
@@ -756,7 +688,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Past Poles",
     ],
   },
   {
@@ -770,12 +701,7 @@ const rowData: RowData[] = [
       sunsetter: true,
       kicks: 2,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Past Poles",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "37",
@@ -788,12 +714,7 @@ const rowData: RowData[] = [
       sunsetter: true,
       kicks: 1,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Past Poles",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "38",
@@ -819,7 +740,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
     ],
   },
   {
@@ -847,7 +767,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
     ],
   },
   {
@@ -861,12 +780,7 @@ const rowData: RowData[] = [
       slide: true,
       kicks: 3,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "41",
@@ -880,12 +794,7 @@ const rowData: RowData[] = [
       sunsetter: true,
       kicks: 2,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "42",
@@ -912,7 +821,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
     ],
   },
   {
@@ -940,7 +848,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
     ],
   },
   {
@@ -954,12 +861,7 @@ const rowData: RowData[] = [
       sunsetter: true,
       kicks: 2,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "45",
@@ -973,12 +875,7 @@ const rowData: RowData[] = [
       clingGem: true,
       ascendantLight: true,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "46",
@@ -1005,7 +902,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
     ],
   },
   {
@@ -1033,7 +929,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
     ],
   },
   {
@@ -1060,7 +955,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
     ],
   },
   {
@@ -1075,12 +969,7 @@ const rowData: RowData[] = [
       kicks: 1,
       ascendantLight: true,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "50",
@@ -1094,12 +983,7 @@ const rowData: RowData[] = [
       sunsetter: true,
       kicks: 1,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "51",
@@ -1112,12 +996,7 @@ const rowData: RowData[] = [
       slide: true,
       clingGem: true,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "52",
@@ -1144,7 +1023,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
     ],
   },
   {
@@ -1172,7 +1050,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
     ],
   },
   {
@@ -1186,12 +1063,7 @@ const rowData: RowData[] = [
       sunsetter: true,
       kicks: 1,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "55",
@@ -1204,12 +1076,7 @@ const rowData: RowData[] = [
       sunsetter: true,
       clingGem: true,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "56",
@@ -1235,7 +1102,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
     ],
   },
   {
@@ -1249,12 +1115,7 @@ const rowData: RowData[] = [
       slide: true,
       kicks: 1,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "58",
@@ -1266,12 +1127,7 @@ const rowData: RowData[] = [
       slide: true,
       sunsetter: true,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "59",
@@ -1298,7 +1154,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
     ],
   },
   {
@@ -1311,12 +1166,7 @@ const rowData: RowData[] = [
       dreamBreaker: true,
       slide: true,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Rafters",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "61",
@@ -1341,7 +1191,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Strong Eyes",
     ],
   },
   {
@@ -1354,12 +1203,7 @@ const rowData: RowData[] = [
       dreamBreaker: true,
       slide: true,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Strong Eyes",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "63",
@@ -1387,7 +1231,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Strong Eyes",
     ],
   },
   {
@@ -1402,12 +1245,7 @@ const rowData: RowData[] = [
       kicks: 1,
       clingGem: true,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Strong Eyes",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "65",
@@ -1434,7 +1272,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Dungeon => Castle",
       "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Strong Eyes",
     ],
   },
   {
@@ -1448,12 +1285,7 @@ const rowData: RowData[] = [
       sunsetter: true,
       kicks: 1,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Strong Eyes",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "67",
@@ -1466,12 +1298,7 @@ const rowData: RowData[] = [
       sunsetter: true,
       clingGem: true,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Strong Eyes",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "68",
@@ -1483,12 +1310,7 @@ const rowData: RowData[] = [
       slide: true,
       sunsetter: true,
     },
-    samplePath: [
-      "Dungeon Mirror",
-      "Dungeon Slide",
-      "Dungeon Strong Eyes",
-      "Dilapidated Dungeon - Strong Eyes",
-    ],
+    samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
     id: "69",
@@ -1510,7 +1332,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Indignation",
     ],
   },
   {
@@ -1530,7 +1351,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Indignation",
     ],
   },
   {
@@ -1554,7 +1374,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Indignation",
     ],
   },
   {
@@ -1578,7 +1397,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Alcove Near Dungeon",
     ],
   },
   {
@@ -1603,7 +1421,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Alcove Near Dungeon",
     ],
   },
   {
@@ -1628,7 +1445,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Alcove Near Dungeon",
     ],
   },
   {
@@ -1653,7 +1469,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Alcove Near Dungeon",
     ],
   },
   {
@@ -1674,7 +1489,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Alcove Near Dungeon",
     ],
   },
   {
@@ -1695,7 +1509,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Alcove Near Dungeon",
     ],
   },
   {
@@ -1720,7 +1533,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Alcove Near Dungeon",
     ],
   },
   {
@@ -1745,7 +1557,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Alcove Near Dungeon",
     ],
   },
   {
@@ -1769,7 +1580,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Alcove Near Dungeon",
     ],
   },
   {
@@ -1793,7 +1603,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Alcove Near Dungeon",
     ],
   },
   {
@@ -1813,7 +1622,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Alcove Near Dungeon",
     ],
   },
   {
@@ -1837,7 +1645,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Alcove Near Dungeon",
     ],
   },
   {
@@ -1861,7 +1668,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Alcove Near Dungeon",
     ],
   },
   {
@@ -1885,7 +1691,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Alcove Near Dungeon",
     ],
   },
   {
@@ -1909,7 +1714,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Balcony",
     ],
   },
   {
@@ -1935,7 +1739,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Balcony",
     ],
   },
   {
@@ -1960,7 +1763,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Balcony",
     ],
   },
   {
@@ -1987,7 +1789,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Balcony",
     ],
   },
   {
@@ -2011,7 +1812,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Balcony",
     ],
   },
   {
@@ -2032,7 +1832,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Balcony",
     ],
   },
   {
@@ -2054,7 +1853,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Balcony",
     ],
   },
   {
@@ -2075,7 +1873,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Balcony",
     ],
   },
   {
@@ -2100,7 +1897,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Balcony",
     ],
   },
   {
@@ -2127,7 +1923,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Balcony",
     ],
   },
   {
@@ -2152,7 +1947,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Balcony",
     ],
   },
   {
@@ -2178,7 +1972,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Balcony",
     ],
   },
   {
@@ -2198,7 +1991,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Balcony",
     ],
   },
   {
@@ -2223,7 +2015,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Balcony",
     ],
   },
   {
@@ -2248,7 +2039,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Balcony",
     ],
   },
   {
@@ -2273,7 +2063,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Balcony",
     ],
   },
   {
@@ -2297,7 +2086,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Balcony",
     ],
   },
   {
@@ -2321,7 +2109,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Corner Corridor",
     ],
   },
   {
@@ -2345,7 +2132,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Corner Corridor",
     ],
   },
   {
@@ -2366,7 +2152,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Corner Corridor",
     ],
   },
   {
@@ -2387,7 +2172,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Corner Corridor",
     ],
   },
   {
@@ -2412,7 +2196,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Corner Corridor",
     ],
   },
   {
@@ -2437,7 +2220,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Corner Corridor",
     ],
   },
   {
@@ -2461,7 +2243,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Corner Corridor",
     ],
   },
   {
@@ -2482,7 +2263,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Corner Corridor",
     ],
   },
   {
@@ -2507,7 +2287,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Corner Corridor",
     ],
   },
   {
@@ -2528,7 +2307,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Corner Corridor",
     ],
   },
   {
@@ -2554,7 +2332,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Corner Corridor",
     ],
   },
   {
@@ -2579,7 +2356,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Corner Corridor",
     ],
   },
   {
@@ -2600,7 +2376,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Corner Corridor",
     ],
   },
   {
@@ -2626,7 +2401,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Corner Corridor",
     ],
   },
   {
@@ -2651,7 +2425,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Corner Corridor",
     ],
   },
   {
@@ -2675,7 +2448,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -2700,7 +2472,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -2725,7 +2496,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -2750,7 +2520,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -2775,7 +2544,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -2796,7 +2564,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -2817,7 +2584,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -2842,7 +2608,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -2867,7 +2632,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -2892,7 +2656,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -2917,7 +2680,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -2942,7 +2704,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -2966,7 +2727,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -2987,7 +2747,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -3012,7 +2771,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -3033,7 +2791,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -3057,7 +2814,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -3083,7 +2839,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -3108,7 +2863,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -3133,7 +2887,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Floater In Courtyard",
     ],
   },
   {
@@ -3157,7 +2910,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Locked Door",
     ],
   },
   {
@@ -3182,7 +2934,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Locked Door",
     ],
   },
   {
@@ -3202,7 +2953,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Locked Door",
     ],
   },
   {
@@ -3226,7 +2976,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Platform In Main Halls",
     ],
   },
   {
@@ -3250,7 +2999,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Platform In Main Halls",
     ],
   },
   {
@@ -3274,7 +3022,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Platform In Main Halls",
     ],
   },
   {
@@ -3294,7 +3041,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Platform In Main Halls",
     ],
   },
   {
@@ -3318,7 +3064,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Platform In Main Halls",
     ],
   },
   {
@@ -3342,7 +3087,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Platform In Main Halls",
     ],
   },
   {
@@ -3366,7 +3110,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Platform In Main Halls",
     ],
   },
   {
@@ -3390,7 +3133,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Platform In Main Halls",
     ],
   },
   {
@@ -3414,7 +3156,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Tall Room Near Wheel Crawlers",
     ],
   },
   {
@@ -3439,7 +3180,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Tall Room Near Wheel Crawlers",
     ],
   },
   {
@@ -3464,7 +3204,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Tall Room Near Wheel Crawlers",
     ],
   },
   {
@@ -3485,7 +3224,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Tall Room Near Wheel Crawlers",
     ],
   },
   {
@@ -3506,7 +3244,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Tall Room Near Wheel Crawlers",
     ],
   },
   {
@@ -3531,7 +3268,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Tall Room Near Wheel Crawlers",
     ],
   },
   {
@@ -3556,7 +3292,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Tall Room Near Wheel Crawlers",
     ],
   },
   {
@@ -3580,7 +3315,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Tall Room Near Wheel Crawlers",
     ],
   },
   {
@@ -3604,7 +3338,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Tall Room Near Wheel Crawlers",
     ],
   },
   {
@@ -3625,7 +3358,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Tall Room Near Wheel Crawlers",
     ],
   },
   {
@@ -3646,7 +3378,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Tall Room Near Wheel Crawlers",
     ],
   },
   {
@@ -3671,7 +3402,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Tall Room Near Wheel Crawlers",
     ],
   },
   {
@@ -3697,7 +3427,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Tall Room Near Wheel Crawlers",
     ],
   },
   {
@@ -3723,7 +3452,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Tall Room Near Wheel Crawlers",
     ],
   },
   {
@@ -3743,7 +3471,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Tall Room Near Wheel Crawlers",
     ],
   },
   {
@@ -3768,7 +3495,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Tall Room Near Wheel Crawlers",
     ],
   },
   {
@@ -3792,7 +3518,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Tall Room Near Wheel Crawlers",
     ],
   },
   {
@@ -3816,7 +3541,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Wheel Crawlers",
     ],
   },
   {
@@ -3842,7 +3566,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Wheel Crawlers",
     ],
   },
   {
@@ -3866,7 +3589,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Wheel Crawlers",
     ],
   },
   {
@@ -3890,7 +3612,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Wheel Crawlers",
     ],
   },
   {
@@ -3910,7 +3631,6 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Castle Sansa - Wheel Crawlers",
     ],
   },
   {
@@ -3934,7 +3654,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Wheel Crawlers",
     ],
   },
   {
@@ -3958,7 +3677,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Wheel Crawlers",
     ],
   },
   {
@@ -3982,7 +3700,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Wheel Crawlers",
     ],
   },
   {
@@ -4008,7 +3725,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Wheel Crawlers",
     ],
   },
   {
@@ -4032,7 +3748,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Castle Main",
-      "Castle Sansa - Wheel Crawlers",
     ],
   },
   {
@@ -4058,7 +3773,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle High Climb",
-      "Castle Sansa - High Climb From Courtyard",
     ],
   },
   {
@@ -4085,7 +3799,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle High Climb",
-      "Castle Sansa - High Climb From Courtyard",
     ],
   },
   {
@@ -4108,7 +3821,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle High Climb",
-      "Castle Sansa - High Climb From Courtyard",
     ],
   },
   {
@@ -4131,7 +3843,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle High Climb",
-      "Castle Sansa - High Climb From Courtyard",
     ],
   },
   {
@@ -4158,7 +3869,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle High Climb",
-      "Castle Sansa - High Climb From Courtyard",
     ],
   },
   {
@@ -4185,7 +3895,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle High Climb",
-      "Castle Sansa - High Climb From Courtyard",
     ],
   },
   {
@@ -4212,7 +3921,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle High Climb",
-      "Castle Sansa - High Climb From Courtyard",
     ],
   },
   {
@@ -4238,7 +3946,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle High Climb",
-      "Castle Sansa - High Climb From Courtyard",
     ],
   },
   {
@@ -4261,7 +3968,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle High Climb",
-      "Castle Sansa - High Climb From Courtyard",
     ],
   },
   {
@@ -4284,7 +3990,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle High Climb",
-      "Castle Sansa - High Climb From Courtyard",
     ],
   },
   {
@@ -4311,7 +4016,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle High Climb",
-      "Castle Sansa - High Climb From Courtyard",
     ],
   },
   {
@@ -4339,7 +4043,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle High Climb",
-      "Castle Sansa - High Climb From Courtyard",
     ],
   },
   {
@@ -4367,7 +4070,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle High Climb",
-      "Castle Sansa - High Climb From Courtyard",
     ],
   },
   {
@@ -4389,7 +4091,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle High Climb",
-      "Castle Sansa - High Climb From Courtyard",
     ],
   },
   {
@@ -4416,7 +4117,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle High Climb",
-      "Castle Sansa - High Climb From Courtyard",
     ],
   },
   {
@@ -4442,7 +4142,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle High Climb",
-      "Castle Sansa - High Climb From Courtyard",
     ],
   },
   {
@@ -4469,7 +4168,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle By Scythe Corridor",
-      "Castle Sansa - Alcove Near Scythe Corridor",
     ],
   },
   {
@@ -4497,7 +4195,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle By Scythe Corridor",
-      "Castle Sansa - Alcove Near Scythe Corridor",
     ],
   },
   {
@@ -4521,7 +4218,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle By Scythe Corridor",
-      "Castle Sansa - Alcove Near Scythe Corridor",
     ],
   },
   {
@@ -4549,7 +4245,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle By Scythe Corridor",
-      "Castle Sansa - Alcove Near Scythe Corridor",
     ],
   },
   {
@@ -4575,7 +4270,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle By Scythe Corridor",
-      "Castle Sansa - Alcove Near Scythe Corridor",
     ],
   },
   {
@@ -4598,7 +4292,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle By Scythe Corridor",
-      "Castle Sansa - Alcove Near Scythe Corridor",
     ],
   },
   {
@@ -4625,7 +4318,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle By Scythe Corridor",
-      "Castle Sansa - Alcove Near Scythe Corridor",
     ],
   },
   {
@@ -4648,7 +4340,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle By Scythe Corridor",
-      "Castle Sansa - Alcove Near Scythe Corridor",
     ],
   },
   {
@@ -4674,7 +4365,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle By Scythe Corridor",
-      "Castle Sansa - Alcove Near Scythe Corridor",
     ],
   },
   {
@@ -4701,7 +4391,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle By Scythe Corridor",
-      "Castle Sansa - Alcove Near Scythe Corridor",
     ],
   },
   {
@@ -4728,7 +4417,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle By Scythe Corridor",
-      "Castle Sansa - Alcove Near Scythe Corridor",
     ],
   },
   {
@@ -4754,7 +4442,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Castle Spiral Climb",
       "Castle By Scythe Corridor",
-      "Castle Sansa - Alcove Near Scythe Corridor",
     ],
   },
   {
@@ -4783,7 +4470,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Castle Moon Room",
-      "Castle Sansa - Near Theatre Front",
     ],
   },
   {
@@ -4813,7 +4499,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Castle Moon Room",
-      "Castle Sansa - Near Theatre Front",
     ],
   },
   {
@@ -4839,7 +4524,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Castle Moon Room",
-      "Castle Sansa - Near Theatre Front",
     ],
   },
   {
@@ -4869,7 +4553,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Castle Moon Room",
-      "Castle Sansa - Near Theatre Front",
     ],
   },
   {
@@ -4897,7 +4580,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Castle Moon Room",
-      "Castle Sansa - Near Theatre Front",
     ],
   },
   {
@@ -4922,7 +4604,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Castle Moon Room",
-      "Castle Sansa - Near Theatre Front",
     ],
   },
   {
@@ -4951,7 +4632,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Castle Moon Room",
-      "Castle Sansa - Near Theatre Front",
     ],
   },
   {
@@ -4976,7 +4656,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Castle Moon Room",
-      "Castle Sansa - Near Theatre Front",
     ],
   },
   {
@@ -5005,7 +4684,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Castle Moon Room",
-      "Castle Sansa - Near Theatre Front",
     ],
   },
   {
@@ -5035,7 +4713,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Castle Moon Room",
-      "Castle Sansa - Near Theatre Front",
     ],
   },
   {
@@ -5065,7 +4742,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Castle Moon Room",
-      "Castle Sansa - Near Theatre Front",
     ],
   },
   {
@@ -5094,7 +4770,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Castle Moon Room",
-      "Castle Sansa - Near Theatre Front",
     ],
   },
   {
@@ -5120,7 +4795,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Strikebreak",
     ],
   },
   {
@@ -5146,7 +4820,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Strikebreak",
     ],
   },
   {
@@ -5173,7 +4846,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Strikebreak",
     ],
   },
   {
@@ -5200,7 +4872,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Strikebreak",
     ],
   },
   {
@@ -5226,7 +4897,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Strikebreak",
     ],
   },
   {
@@ -5252,7 +4922,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Strikebreak",
     ],
   },
   {
@@ -5278,7 +4947,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Strikebreak",
     ],
   },
   {
@@ -5304,7 +4972,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Strikebreak",
     ],
   },
   {
@@ -5329,7 +4996,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Strikebreak",
     ],
   },
   {
@@ -5355,7 +5021,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Strikebreak",
     ],
   },
   {
@@ -5381,7 +5046,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Keep Main",
       "Keep Locked Room",
-      "Sansa Keep - Alcove Near Locked Door",
     ],
   },
   {
@@ -5407,7 +5071,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Keep Main",
       "Keep Locked Room",
-      "Sansa Keep - Alcove Near Locked Door",
     ],
   },
   {
@@ -5434,7 +5097,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Keep Main",
       "Keep Locked Room",
-      "Sansa Keep - Alcove Near Locked Door",
     ],
   },
   {
@@ -5461,7 +5123,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Keep Main",
       "Keep Locked Room",
-      "Sansa Keep - Alcove Near Locked Door",
     ],
   },
   {
@@ -5488,7 +5149,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Keep Main",
       "Keep Locked Room",
-      "Sansa Keep - Alcove Near Locked Door",
     ],
   },
   {
@@ -5515,7 +5175,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Keep Main",
       "Keep Locked Room",
-      "Sansa Keep - Alcove Near Locked Door",
     ],
   },
   {
@@ -5537,7 +5196,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Keep Main",
       "Keep Locked Room",
-      "Sansa Keep - Alcove Near Locked Door",
     ],
   },
   {
@@ -5564,7 +5222,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Keep Main",
       "Keep Locked Room",
-      "Sansa Keep - Alcove Near Locked Door",
     ],
   },
   {
@@ -5591,7 +5248,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Keep Main",
       "Keep Locked Room",
-      "Sansa Keep - Alcove Near Locked Door",
     ],
   },
   {
@@ -5616,7 +5272,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Keep Main",
       "Keep Locked Room",
-      "Sansa Keep - Alcove Near Locked Door",
     ],
   },
   {
@@ -5642,7 +5297,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Keep Main",
       "Keep Locked Room",
-      "Sansa Keep - Alcove Near Locked Door",
     ],
   },
   {
@@ -5666,7 +5320,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Levers Room",
     ],
   },
   {
@@ -5687,7 +5340,6 @@ const rowData: RowData[] = [
       "Dungeon => Castle",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Levers Room",
     ],
   },
   {
@@ -5712,7 +5364,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Levers Room",
     ],
   },
   {
@@ -5738,7 +5389,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Lonely Throne",
     ],
   },
   {
@@ -5765,7 +5415,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Lonely Throne",
     ],
   },
   {
@@ -5792,7 +5441,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Lonely Throne",
     ],
   },
   {
@@ -5819,7 +5467,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Lonely Throne",
     ],
   },
   {
@@ -5846,7 +5493,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Lonely Throne",
     ],
   },
   {
@@ -5872,7 +5518,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Lonely Throne",
     ],
   },
   {
@@ -5898,7 +5543,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Lonely Throne",
     ],
   },
   {
@@ -5924,7 +5568,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Lonely Throne",
     ],
   },
   {
@@ -5950,7 +5593,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Lonely Throne",
     ],
   },
   {
@@ -5976,7 +5618,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Lonely Throne",
     ],
   },
   {
@@ -6002,7 +5643,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Lonely Throne",
     ],
   },
   {
@@ -6029,7 +5669,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Lonely Throne",
     ],
   },
   {
@@ -6054,7 +5693,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Lonely Throne",
     ],
   },
   {
@@ -6081,7 +5719,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Lonely Throne",
     ],
   },
   {
@@ -6111,7 +5748,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Lonely Throne",
     ],
   },
   {
@@ -6136,7 +5772,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Near Theatre",
     ],
   },
   {
@@ -6161,7 +5796,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Near Theatre",
     ],
   },
   {
@@ -6186,7 +5820,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Near Theatre",
     ],
   },
   {
@@ -6207,7 +5840,6 @@ const rowData: RowData[] = [
       "Dungeon => Castle",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Near Theatre",
     ],
   },
   {
@@ -6232,7 +5864,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Near Theatre",
     ],
   },
   {
@@ -6257,7 +5888,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Castle Main",
       "Keep Main",
-      "Sansa Keep - Near Theatre",
     ],
   },
   {
@@ -6284,7 +5914,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Keep Locked Room",
       "Keep Sunsetter",
-      "Sansa Keep - Sunsetter",
     ],
   },
   {
@@ -6311,7 +5940,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Keep Locked Room",
       "Keep Sunsetter",
-      "Sansa Keep - Sunsetter",
     ],
   },
   {
@@ -6339,7 +5967,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Keep Locked Room",
       "Keep Sunsetter",
-      "Sansa Keep - Sunsetter",
     ],
   },
   {
@@ -6365,7 +5992,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Keep Main",
       "Keep Sunsetter",
-      "Sansa Keep - Sunsetter",
     ],
   },
   {
@@ -6393,7 +6019,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Keep Locked Room",
       "Keep Sunsetter",
-      "Sansa Keep - Sunsetter",
     ],
   },
   {
@@ -6416,7 +6041,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Keep Locked Room",
       "Keep Sunsetter",
-      "Sansa Keep - Sunsetter",
     ],
   },
   {
@@ -6444,7 +6068,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Keep Locked Room",
       "Keep Sunsetter",
-      "Sansa Keep - Sunsetter",
     ],
   },
   {
@@ -6471,7 +6094,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Keep Main",
       "Keep Sunsetter",
-      "Sansa Keep - Sunsetter",
     ],
   },
   {
@@ -6496,7 +6118,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Keep Main",
       "Keep Sunsetter",
-      "Sansa Keep - Sunsetter",
     ],
   },
   {
@@ -6522,7 +6143,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Keep Main",
       "Keep Sunsetter",
-      "Sansa Keep - Sunsetter",
     ],
   },
   {
@@ -6550,7 +6170,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Top",
       "Library Greaves",
-      "Listless Library - Sun Greaves",
     ],
   },
   {
@@ -6578,7 +6197,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Top",
       "Library Greaves",
-      "Listless Library - Sun Greaves",
     ],
   },
   {
@@ -6606,7 +6224,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Top",
       "Library Greaves",
-      "Listless Library - Sun Greaves",
     ],
   },
   {
@@ -6632,7 +6249,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Greaves",
-      "Listless Library - Sun Greaves",
     ],
   },
   {
@@ -6654,7 +6270,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Greaves",
-      "Listless Library - Sun Greaves",
     ],
   },
   {
@@ -6682,7 +6297,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Top",
       "Library Greaves",
-      "Listless Library - Sun Greaves",
     ],
   },
   {
@@ -6711,7 +6325,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Top",
       "Library Greaves",
-      "Listless Library - Sun Greaves",
     ],
   },
   {
@@ -6740,7 +6353,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Top",
       "Library Greaves",
-      "Listless Library - Sun Greaves",
     ],
   },
   {
@@ -6767,7 +6379,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Greaves",
-      "Listless Library - Sun Greaves",
     ],
   },
   {
@@ -6794,7 +6405,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Top",
       "Library Greaves",
-      "Listless Library - Sun Greaves",
     ],
   },
   {
@@ -6821,7 +6431,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Top",
       "Library Greaves",
-      "Listless Library - Sun Greaves",
     ],
   },
   {
@@ -6848,7 +6457,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Top",
       "Library Greaves",
-      "Listless Library - Sun Greaves",
     ],
   },
   {
@@ -6877,7 +6485,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Top",
       "Library Greaves",
-      "Listless Library - Sun Greaves",
     ],
   },
   {
@@ -6905,7 +6512,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Top",
       "Library Greaves",
-      "Listless Library - Sun Greaves",
     ],
   },
   {
@@ -6933,7 +6539,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Top",
       "Library Greaves",
-      "Listless Library - Sun Greaves",
     ],
   },
   {
@@ -6960,7 +6565,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Top",
       "Library Greaves",
-      "Listless Library - Sun Greaves",
     ],
   },
   {
@@ -6989,7 +6593,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Top",
       "Library Greaves",
-      "Listless Library - Sun Greaves",
     ],
   },
   {
@@ -7015,7 +6618,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7042,7 +6644,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7070,7 +6671,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Greaves",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7099,7 +6699,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Greaves",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7128,7 +6727,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Greaves",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7151,7 +6749,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7175,7 +6772,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Greaves",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7202,7 +6798,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7229,7 +6824,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7258,7 +6852,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Greaves",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7287,7 +6880,6 @@ const rowData: RowData[] = [
       "Library Main",
       "Library Greaves",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7313,7 +6905,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7339,7 +6930,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7366,7 +6956,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7388,7 +6977,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7415,7 +7003,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7441,7 +7028,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7467,7 +7053,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7493,7 +7078,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Top",
-      "Listless Library - Upper Back",
     ],
   },
   {
@@ -7520,7 +7104,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Across",
     ],
   },
   {
@@ -7547,7 +7130,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Across",
     ],
   },
   {
@@ -7570,7 +7152,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Across",
     ],
   },
   {
@@ -7598,7 +7179,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Across",
     ],
   },
   {
@@ -7621,7 +7201,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Across",
     ],
   },
   {
@@ -7649,7 +7228,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Across",
     ],
   },
   {
@@ -7672,7 +7250,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Across",
     ],
   },
   {
@@ -7695,7 +7272,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Across",
     ],
   },
   {
@@ -7722,7 +7298,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Across",
     ],
   },
   {
@@ -7749,7 +7324,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Across",
     ],
   },
   {
@@ -7771,7 +7345,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Across",
     ],
   },
   {
@@ -7793,7 +7366,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Across",
     ],
   },
   {
@@ -7820,7 +7392,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Left",
     ],
   },
   {
@@ -7848,7 +7419,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Left",
     ],
   },
   {
@@ -7872,7 +7442,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Left",
     ],
   },
   {
@@ -7899,7 +7468,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Left",
     ],
   },
   {
@@ -7927,7 +7495,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Left",
     ],
   },
   {
@@ -7950,7 +7517,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Left",
     ],
   },
   {
@@ -7974,7 +7540,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Left",
     ],
   },
   {
@@ -8002,7 +7567,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Left",
     ],
   },
   {
@@ -8025,7 +7589,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Left",
     ],
   },
   {
@@ -8052,7 +7615,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Left",
     ],
   },
   {
@@ -8080,7 +7642,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Left",
     ],
   },
   {
@@ -8103,7 +7664,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Left",
     ],
   },
   {
@@ -8131,7 +7691,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Left",
     ],
   },
   {
@@ -8153,7 +7712,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Library Main",
       "Library Locked",
-      "Listless Library - Locked Door Left",
     ],
   },
   {
@@ -8180,7 +7738,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Soul Cutter",
     ],
   },
   {
@@ -8210,7 +7767,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Soul Cutter",
     ],
   },
   {
@@ -8240,7 +7796,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Theatre Outside Scythe Corridor",
       "Theatre Main",
-      "Twilight Theatre - Soul Cutter",
     ],
   },
   {
@@ -8267,7 +7822,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Soul Cutter",
     ],
   },
   {
@@ -8296,7 +7850,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Soul Cutter",
     ],
   },
   {
@@ -8326,7 +7879,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Soul Cutter",
     ],
   },
   {
@@ -8357,7 +7909,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Soul Cutter",
     ],
   },
   {
@@ -8387,7 +7938,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Soul Cutter",
     ],
   },
   {
@@ -8413,7 +7963,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Back Of Auditorium",
     ],
   },
   {
@@ -8442,7 +7991,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Back Of Auditorium",
     ],
   },
   {
@@ -8471,7 +8019,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Theatre Outside Scythe Corridor",
       "Theatre Main",
-      "Twilight Theatre - Back Of Auditorium",
     ],
   },
   {
@@ -8497,7 +8044,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Back Of Auditorium",
     ],
   },
   {
@@ -8520,7 +8066,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Back Of Auditorium",
     ],
   },
   {
@@ -8543,7 +8088,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Back Of Auditorium",
     ],
   },
   {
@@ -8569,7 +8113,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Back Of Auditorium",
     ],
   },
   {
@@ -8595,7 +8138,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Back Of Auditorium",
     ],
   },
   {
@@ -8623,7 +8165,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Back Of Auditorium",
     ],
   },
   {
@@ -8648,7 +8189,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Back Of Auditorium",
     ],
   },
   {
@@ -8677,7 +8217,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Back Of Auditorium",
     ],
   },
   {
@@ -8707,7 +8246,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Back Of Auditorium",
     ],
   },
   {
@@ -8737,7 +8275,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Back Of Auditorium",
     ],
   },
   {
@@ -8766,7 +8303,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Back Of Auditorium",
     ],
   },
   {
@@ -8797,7 +8333,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Center Stage",
     ],
   },
   {
@@ -8826,7 +8361,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Center Stage",
     ],
   },
   {
@@ -8857,7 +8391,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Theatre Outside Scythe Corridor",
       "Theatre Main",
-      "Twilight Theatre - Center Stage",
     ],
   },
   {
@@ -8888,7 +8421,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Center Stage",
     ],
   },
   {
@@ -8915,7 +8447,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Locked Door",
     ],
   },
   {
@@ -8945,7 +8476,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Locked Door",
     ],
   },
   {
@@ -8970,7 +8500,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Theatre Outside Scythe Corridor",
       "Theatre Main",
-      "Twilight Theatre - Locked Door",
     ],
   },
   {
@@ -8997,7 +8526,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Locked Door",
     ],
   },
   {
@@ -9024,7 +8552,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Locked Door",
     ],
   },
   {
@@ -9047,7 +8574,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Locked Door",
     ],
   },
   {
@@ -9074,7 +8600,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Locked Door",
     ],
   },
   {
@@ -9097,7 +8622,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Locked Door",
     ],
   },
   {
@@ -9126,7 +8650,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Locked Door",
     ],
   },
   {
@@ -9151,7 +8674,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Locked Door",
     ],
   },
   {
@@ -9176,7 +8698,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Locked Door",
     ],
   },
   {
@@ -9201,7 +8722,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Locked Door",
     ],
   },
   {
@@ -9227,7 +8747,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Murderous Goat",
     ],
   },
   {
@@ -9256,7 +8775,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Murderous Goat",
     ],
   },
   {
@@ -9285,7 +8803,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Theatre Outside Scythe Corridor",
       "Theatre Main",
-      "Twilight Theatre - Murderous Goat",
     ],
   },
   {
@@ -9311,7 +8828,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Murderous Goat",
     ],
   },
   {
@@ -9334,7 +8850,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Murderous Goat",
     ],
   },
   {
@@ -9357,7 +8872,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Murderous Goat",
     ],
   },
   {
@@ -9383,7 +8897,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Murderous Goat",
     ],
   },
   {
@@ -9409,7 +8922,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Theatre Pillar",
       "Theatre Main",
-      "Twilight Theatre - Murderous Goat",
     ],
   },
   {
@@ -9437,7 +8949,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Murderous Goat",
     ],
   },
   {
@@ -9462,7 +8973,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Murderous Goat",
     ],
   },
   {
@@ -9491,7 +9001,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Murderous Goat",
     ],
   },
   {
@@ -9521,7 +9030,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Murderous Goat",
     ],
   },
   {
@@ -9551,7 +9059,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Murderous Goat",
     ],
   },
   {
@@ -9580,7 +9087,6 @@ const rowData: RowData[] = [
       "Castle By Scythe Corridor",
       "Castle => Theatre (Front)",
       "Theatre Main",
-      "Twilight Theatre - Murderous Goat",
     ],
   },
   {
@@ -9605,7 +9111,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Theatre Pillar",
-      "Twilight Theatre - Corner Beam",
     ],
   },
   {
@@ -9631,7 +9136,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Theatre Pillar",
-      "Twilight Theatre - Corner Beam",
     ],
   },
   {
@@ -9657,7 +9161,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Theatre Pillar",
-      "Twilight Theatre - Corner Beam",
     ],
   },
   {
@@ -9680,7 +9183,6 @@ const rowData: RowData[] = [
       "Dungeon => Castle",
       "Castle Main",
       "Theatre Pillar",
-      "Twilight Theatre - Corner Beam",
     ],
   },
   {
@@ -9703,7 +9205,6 @@ const rowData: RowData[] = [
       "Dungeon => Castle",
       "Castle Main",
       "Theatre Pillar",
-      "Twilight Theatre - Corner Beam",
     ],
   },
   {
@@ -9726,7 +9227,6 @@ const rowData: RowData[] = [
       "Dungeon => Castle",
       "Castle Main",
       "Theatre Pillar",
-      "Twilight Theatre - Corner Beam",
     ],
   },
   {
@@ -9752,7 +9252,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Theatre Pillar",
-      "Twilight Theatre - Corner Beam",
     ],
   },
   {
@@ -9779,7 +9278,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Theatre Pillar",
-      "Twilight Theatre - Corner Beam",
     ],
   },
   {
@@ -9806,7 +9304,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Theatre Pillar",
-      "Twilight Theatre - Corner Beam",
     ],
   },
   {
@@ -9829,7 +9326,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Little Guy",
       "Empty Bailey",
-      "Empty Bailey - Solar Wind",
     ],
   },
   {
@@ -9850,7 +9346,6 @@ const rowData: RowData[] = [
       "Dungeon => Castle",
       "Castle Main",
       "Empty Bailey",
-      "Empty Bailey - Solar Wind",
     ],
   },
   {
@@ -9874,7 +9369,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Little Guy",
       "Empty Bailey",
-      "Empty Bailey - Solar Wind",
     ],
   },
   {
@@ -9897,7 +9391,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Little Guy",
       "Empty Bailey",
-      "Empty Bailey - Center Steeple",
     ],
   },
   {
@@ -9921,7 +9414,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Little Guy",
       "Empty Bailey",
-      "Empty Bailey - Center Steeple",
     ],
   },
   {
@@ -9942,7 +9434,6 @@ const rowData: RowData[] = [
       "Dungeon => Castle",
       "Castle Main",
       "Empty Bailey",
-      "Empty Bailey - Center Steeple",
     ],
   },
   {
@@ -9966,7 +9457,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Little Guy",
       "Empty Bailey",
-      "Empty Bailey - Center Steeple",
     ],
   },
   {
@@ -9990,7 +9480,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Little Guy",
       "Empty Bailey",
-      "Empty Bailey - Center Steeple",
     ],
   },
   {
@@ -10014,7 +9503,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Little Guy",
       "Empty Bailey",
-      "Empty Bailey - Cheese Bell",
     ],
   },
   {
@@ -10040,7 +9528,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Little Guy",
       "Empty Bailey",
-      "Empty Bailey - Cheese Bell",
     ],
   },
   {
@@ -10065,7 +9552,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Little Guy",
       "Empty Bailey",
-      "Empty Bailey - Cheese Bell",
     ],
   },
   {
@@ -10087,7 +9573,6 @@ const rowData: RowData[] = [
       "Dungeon => Castle",
       "Castle Main",
       "Empty Bailey",
-      "Empty Bailey - Cheese Bell",
     ],
   },
   {
@@ -10110,7 +9595,6 @@ const rowData: RowData[] = [
       "Dungeon => Castle",
       "Castle Main",
       "Empty Bailey",
-      "Empty Bailey - Cheese Bell",
     ],
   },
   {
@@ -10133,7 +9617,6 @@ const rowData: RowData[] = [
       "Dungeon => Castle",
       "Castle Main",
       "Empty Bailey",
-      "Empty Bailey - Cheese Bell",
     ],
   },
   {
@@ -10157,7 +9640,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Little Guy",
       "Empty Bailey",
-      "Empty Bailey - Cheese Bell",
     ],
   },
   {
@@ -10183,7 +9665,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Little Guy",
       "Empty Bailey",
-      "Empty Bailey - Cheese Bell",
     ],
   },
   {
@@ -10209,7 +9690,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Little Guy",
       "Empty Bailey",
-      "Empty Bailey - Cheese Bell",
     ],
   },
   {
@@ -10232,7 +9712,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Little Guy",
       "Empty Bailey",
-      "Empty Bailey - Guarded Hand",
     ],
   },
   {
@@ -10255,7 +9734,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Little Guy",
       "Empty Bailey",
-      "Empty Bailey - Guarded Hand",
     ],
   },
   {
@@ -10278,7 +9756,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Little Guy",
       "Empty Bailey",
-      "Empty Bailey - Guarded Hand",
     ],
   },
   {
@@ -10299,7 +9776,6 @@ const rowData: RowData[] = [
       "Dungeon => Castle",
       "Castle Main",
       "Empty Bailey",
-      "Empty Bailey - Guarded Hand",
     ],
   },
   {
@@ -10322,7 +9798,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Little Guy",
       "Empty Bailey",
-      "Empty Bailey - Guarded Hand",
     ],
   },
   {
@@ -10345,7 +9820,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Little Guy",
       "Empty Bailey",
-      "Empty Bailey - Inside Building",
     ],
   },
   {
@@ -10366,7 +9840,6 @@ const rowData: RowData[] = [
       "Dungeon => Castle",
       "Castle Main",
       "Empty Bailey",
-      "Empty Bailey - Inside Building",
     ],
   },
   {
@@ -10390,7 +9863,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Little Guy",
       "Empty Bailey",
-      "Empty Bailey - Inside Building",
     ],
   },
   {
@@ -10409,7 +9881,6 @@ const rowData: RowData[] = [
       "Dungeon Escape Lower",
       "Underbelly => Dungeon",
       "Underbelly Ascendant Light",
-      "The Underbelly - Ascendant Light",
     ],
   },
   {
@@ -10430,7 +9901,6 @@ const rowData: RowData[] = [
       "Dungeon Escape Lower",
       "Underbelly => Dungeon",
       "Underbelly Ascendant Light",
-      "The Underbelly - Ascendant Light",
     ],
   },
   {
@@ -10449,7 +9919,6 @@ const rowData: RowData[] = [
       "Dungeon Escape Lower",
       "Underbelly => Dungeon",
       "Underbelly Ascendant Light",
-      "The Underbelly - Ascendant Light",
     ],
   },
   {
@@ -10468,7 +9937,6 @@ const rowData: RowData[] = [
       "Dungeon Escape Lower",
       "Underbelly => Dungeon",
       "Underbelly Ascendant Light",
-      "The Underbelly - Ascendant Light",
     ],
   },
   {
@@ -10488,7 +9956,6 @@ const rowData: RowData[] = [
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
       "Underbelly Ascendant Light",
-      "The Underbelly - Ascendant Light",
     ],
   },
   {
@@ -10517,7 +9984,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Light Pillar",
       "Underbelly Ascendant Light",
-      "The Underbelly - Ascendant Light",
     ],
   },
   {
@@ -10536,7 +10002,6 @@ const rowData: RowData[] = [
       "Dungeon Escape Lower",
       "Underbelly => Dungeon",
       "Underbelly Ascendant Light",
-      "The Underbelly - Ascendant Light",
     ],
   },
   {
@@ -10554,7 +10019,6 @@ const rowData: RowData[] = [
       "Dungeon Escape Lower",
       "Underbelly => Dungeon",
       "Underbelly Ascendant Light",
-      "The Underbelly - Ascendant Light",
     ],
   },
   {
@@ -10583,7 +10047,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Light Pillar",
       "Underbelly Ascendant Light",
-      "The Underbelly - Ascendant Light",
     ],
   },
   {
@@ -10611,7 +10074,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Light Pillar",
       "Underbelly Ascendant Light",
-      "The Underbelly - Ascendant Light",
     ],
   },
   {
@@ -10629,7 +10091,6 @@ const rowData: RowData[] = [
       "Dungeon Escape Lower",
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
-      "The Underbelly - Alcove Near Light",
     ],
   },
   {
@@ -10657,7 +10118,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Main Upper",
       "Underbelly Light Pillar",
-      "The Underbelly - Alcove Near Light",
     ],
   },
   {
@@ -10676,7 +10136,6 @@ const rowData: RowData[] = [
       "Dungeon Escape Lower",
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
-      "The Underbelly - Alcove Near Light",
     ],
   },
   {
@@ -10704,7 +10163,6 @@ const rowData: RowData[] = [
       "Underbelly By Heliacal",
       "Underbelly Main Upper",
       "Underbelly Light Pillar",
-      "The Underbelly - Alcove Near Light",
     ],
   },
   {
@@ -10731,7 +10189,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly Main Upper",
       "Underbelly Light Pillar",
-      "The Underbelly - Alcove Near Light",
     ],
   },
   {
@@ -10753,7 +10210,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly Little Guy",
-      "The Underbelly - Building Near Little Guy",
     ],
   },
   {
@@ -10775,7 +10231,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly Little Guy",
-      "The Underbelly - Building Near Little Guy",
     ],
   },
   {
@@ -10798,7 +10253,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Tower Remains",
       "Underbelly Little Guy",
-      "The Underbelly - Building Near Little Guy",
     ],
   },
   {
@@ -10820,7 +10274,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly Little Guy",
-      "The Underbelly - Building Near Little Guy",
     ],
   },
   {
@@ -10842,7 +10295,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly Little Guy",
-      "The Underbelly - Building Near Little Guy",
     ],
   },
   {
@@ -10864,7 +10316,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly Little Guy",
-      "The Underbelly - Building Near Little Guy",
     ],
   },
   {
@@ -10886,7 +10337,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly Little Guy",
-      "The Underbelly - Building Near Little Guy",
     ],
   },
   {
@@ -10910,7 +10360,6 @@ const rowData: RowData[] = [
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
       "Underbelly By Heliacal",
-      "The Underbelly - Locked Door",
     ],
   },
   {
@@ -10933,7 +10382,6 @@ const rowData: RowData[] = [
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
       "Underbelly By Heliacal",
-      "The Underbelly - Locked Door",
     ],
   },
   {
@@ -10955,7 +10403,6 @@ const rowData: RowData[] = [
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
       "Underbelly By Heliacal",
-      "The Underbelly - Locked Door",
     ],
   },
   {
@@ -10979,7 +10426,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly By Heliacal",
-      "The Underbelly - Locked Door",
     ],
   },
   {
@@ -11004,7 +10450,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Underbelly Main Lower",
       "Underbelly By Heliacal",
-      "The Underbelly - Locked Door",
     ],
   },
   {
@@ -11027,7 +10472,6 @@ const rowData: RowData[] = [
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
       "Underbelly By Heliacal",
-      "The Underbelly - Locked Door",
     ],
   },
   {
@@ -11049,7 +10493,6 @@ const rowData: RowData[] = [
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
       "Underbelly By Heliacal",
-      "The Underbelly - Locked Door",
     ],
   },
   {
@@ -11073,7 +10516,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly By Heliacal",
-      "The Underbelly - Locked Door",
     ],
   },
   {
@@ -11096,7 +10538,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly By Heliacal",
-      "The Underbelly - Locked Door",
     ],
   },
   {
@@ -11116,7 +10557,6 @@ const rowData: RowData[] = [
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
-      "The Underbelly - Main Room",
     ],
   },
   {
@@ -11138,7 +10578,6 @@ const rowData: RowData[] = [
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
-      "The Underbelly - Main Room",
     ],
   },
   {
@@ -11158,7 +10597,6 @@ const rowData: RowData[] = [
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
-      "The Underbelly - Main Room",
     ],
   },
   {
@@ -11178,7 +10616,6 @@ const rowData: RowData[] = [
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
-      "The Underbelly - Main Room",
     ],
   },
   {
@@ -11205,7 +10642,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly By Heliacal",
       "Underbelly Main Upper",
-      "The Underbelly - Main Room",
     ],
   },
   {
@@ -11232,7 +10668,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly By Heliacal",
       "Underbelly Main Upper",
-      "The Underbelly - Main Room",
     ],
   },
   {
@@ -11252,7 +10687,6 @@ const rowData: RowData[] = [
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
-      "The Underbelly - Main Room",
     ],
   },
   {
@@ -11273,7 +10707,6 @@ const rowData: RowData[] = [
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
-      "The Underbelly - Main Room",
     ],
   },
   {
@@ -11299,7 +10732,6 @@ const rowData: RowData[] = [
       "Underbelly Main Lower",
       "Underbelly By Heliacal",
       "Underbelly Main Upper",
-      "The Underbelly - Main Room",
     ],
   },
   {
@@ -11319,7 +10751,6 @@ const rowData: RowData[] = [
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
-      "The Underbelly - Main Room",
     ],
   },
   {
@@ -11339,7 +10770,6 @@ const rowData: RowData[] = [
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
-      "The Underbelly - Main Room",
     ],
   },
   {
@@ -11366,7 +10796,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Keep => Underbelly",
       "Underbelly => Keep",
-      "The Underbelly - Rafters Near Keep",
     ],
   },
   {
@@ -11394,7 +10823,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Keep => Underbelly",
       "Underbelly => Keep",
-      "The Underbelly - Rafters Near Keep",
     ],
   },
   {
@@ -11422,7 +10850,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Keep => Underbelly",
       "Underbelly => Keep",
-      "The Underbelly - Rafters Near Keep",
     ],
   },
   {
@@ -11449,7 +10876,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Keep => Underbelly",
       "Underbelly => Keep",
-      "The Underbelly - Rafters Near Keep",
     ],
   },
   {
@@ -11472,7 +10898,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Keep => Underbelly",
       "Underbelly => Keep",
-      "The Underbelly - Rafters Near Keep",
     ],
   },
   {
@@ -11499,7 +10924,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Keep => Underbelly",
       "Underbelly => Keep",
-      "The Underbelly - Rafters Near Keep",
     ],
   },
   {
@@ -11526,7 +10950,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Keep => Underbelly",
       "Underbelly => Keep",
-      "The Underbelly - Rafters Near Keep",
     ],
   },
   {
@@ -11553,7 +10976,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Keep => Underbelly",
       "Underbelly => Keep",
-      "The Underbelly - Rafters Near Keep",
     ],
   },
   {
@@ -11580,7 +11002,6 @@ const rowData: RowData[] = [
       "Keep Main",
       "Keep => Underbelly",
       "Underbelly => Keep",
-      "The Underbelly - Rafters Near Keep",
     ],
   },
   {
@@ -11601,7 +11022,6 @@ const rowData: RowData[] = [
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
-      "The Underbelly - Strikebreak Wall",
     ],
   },
   {
@@ -11623,7 +11043,6 @@ const rowData: RowData[] = [
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
-      "The Underbelly - Strikebreak Wall",
     ],
   },
   {
@@ -11644,7 +11063,6 @@ const rowData: RowData[] = [
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
-      "The Underbelly - Strikebreak Wall",
     ],
   },
   {
@@ -11665,7 +11083,6 @@ const rowData: RowData[] = [
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
-      "The Underbelly - Strikebreak Wall",
     ],
   },
   {
@@ -11687,7 +11104,6 @@ const rowData: RowData[] = [
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
-      "The Underbelly - Strikebreak Wall",
     ],
   },
   {
@@ -11709,7 +11125,6 @@ const rowData: RowData[] = [
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
-      "The Underbelly - Strikebreak Wall",
     ],
   },
   {
@@ -11731,7 +11146,6 @@ const rowData: RowData[] = [
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
-      "The Underbelly - Strikebreak Wall",
     ],
   },
   {
@@ -11753,7 +11167,6 @@ const rowData: RowData[] = [
       "Underbelly => Dungeon",
       "Underbelly Light Pillar",
       "Underbelly Main Upper",
-      "The Underbelly - Strikebreak Wall",
     ],
   },
   {
@@ -11778,7 +11191,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly Hole",
-      "The Underbelly - Surrounded By Holes",
     ],
   },
   {
@@ -11804,7 +11216,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly Hole",
-      "The Underbelly - Surrounded By Holes",
     ],
   },
   {
@@ -11829,7 +11240,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly Hole",
-      "The Underbelly - Surrounded By Holes",
     ],
   },
   {
@@ -11852,12 +11262,10 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Empty Bailey",
-      "Tower Remains",
-      "Underbelly Little Guy",
-      "Underbelly Main Lower",
+      "Keep Main",
+      "Keep => Underbelly",
+      "Underbelly => Keep",
       "Underbelly Hole",
-      "The Underbelly - Surrounded By Holes",
     ],
   },
   {
@@ -11883,7 +11291,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly Hole",
-      "The Underbelly - Surrounded By Holes",
     ],
   },
   {
@@ -11908,7 +11315,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly Hole",
-      "The Underbelly - Surrounded By Holes",
     ],
   },
   {
@@ -11931,7 +11337,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly Hole",
-      "The Underbelly - Surrounded By Holes",
     ],
   },
   {
@@ -11952,12 +11357,10 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Empty Bailey",
-      "Tower Remains",
-      "Underbelly Little Guy",
-      "Underbelly Main Lower",
+      "Keep Main",
+      "Keep => Underbelly",
+      "Underbelly => Keep",
       "Underbelly Hole",
-      "The Underbelly - Surrounded By Holes",
     ],
   },
   {
@@ -11980,7 +11383,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly Hole",
-      "The Underbelly - Surrounded By Holes",
     ],
   },
   {
@@ -12001,12 +11403,10 @@ const rowData: RowData[] = [
       "Dungeon Strong Eyes",
       "Dungeon => Castle",
       "Castle Main",
-      "Empty Bailey",
-      "Tower Remains",
-      "Underbelly Little Guy",
-      "Underbelly Main Lower",
+      "Keep Main",
+      "Keep => Underbelly",
+      "Underbelly => Keep",
       "Underbelly Hole",
-      "The Underbelly - Surrounded By Holes",
     ],
   },
   {
@@ -12030,7 +11430,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly Hole",
-      "The Underbelly - Surrounded By Holes",
     ],
   },
   {
@@ -12054,7 +11453,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly Hole",
-      "The Underbelly - Surrounded By Holes",
     ],
   },
   {
@@ -12079,7 +11477,6 @@ const rowData: RowData[] = [
       "Underbelly Main Upper",
       "Underbelly Main Lower",
       "Underbelly Hole",
-      "The Underbelly - Surrounded By Holes",
     ],
   },
   {
@@ -12103,7 +11500,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Tower Remains",
-      "Tower Remains - Cling Gem",
     ],
   },
   {
@@ -12126,7 +11522,6 @@ const rowData: RowData[] = [
       "Castle Main",
       "Empty Bailey",
       "Tower Remains",
-      "Tower Remains - Cling Gem",
     ],
   },
   {
@@ -12151,7 +11546,6 @@ const rowData: RowData[] = [
       "Underbelly Little Guy",
       "Empty Bailey",
       "Tower Remains",
-      "Tower Remains - Cling Gem",
     ],
   },
   {
@@ -12177,7 +11571,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Tower Remains",
       "The Great Door",
-      "Tower Remains - Atop The Tower",
     ],
   },
   {
@@ -12202,7 +11595,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Tower Remains",
       "The Great Door",
-      "Tower Remains - Atop The Tower",
     ],
   },
   {
@@ -12229,7 +11621,6 @@ const rowData: RowData[] = [
       "Empty Bailey",
       "Tower Remains",
       "The Great Door",
-      "Tower Remains - Atop The Tower",
     ],
   },
 ];
