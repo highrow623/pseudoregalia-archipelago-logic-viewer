@@ -5,7 +5,7 @@ import Instructions from "./pathing-logic/instructions";
 import { DifficultyIcon } from "./components/difficulty";
 import ObscureIcon from "./components/obscure";
 import { ItemIcons } from "./components/items";
-import rowData from "./data/pathing";
+import rowData, { RowData } from "./data/pathing";
 import { useDifficulty } from "./context/difficulty";
 import ClickWrapper from "./components/clickWrapper";
 import { useItems, hasRequiredItems } from "./context/items";
@@ -59,14 +59,15 @@ export default function PathingLogic() {
         </thead>
         <tbody>
           {rowData
+            .map((data, index): [RowData, number] => [data, index])
             .filter(
-              (data) =>
+              ([data]) =>
                 data.difficulty <= difficulty &&
                 (obscure || !data.obscure) &&
                 hasRequiredItems(items, data.items),
             )
-            .map((data) => (
-              <TableRow key={data.id} rowData={data} />
+            .map(([data, index]) => (
+              <TableRow key={index} rowData={data} />
             ))}
         </tbody>
       </table>

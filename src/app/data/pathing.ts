@@ -2,7 +2,6 @@ import { Difficulty } from "../components/difficulty";
 import { noItems, Items } from "../context/items";
 
 export type RowData = {
-  id: string;
   location: string;
   difficulty: Difficulty;
   obscure: boolean;
@@ -12,7 +11,6 @@ export type RowData = {
 
 const rowData: RowData[] = [
   {
-    id: "0",
     location: "Dilapidated Dungeon - Dream Breaker",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -22,7 +20,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror"],
   },
   {
-    id: "1",
     location: "Dilapidated Dungeon - Slide",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -33,7 +30,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide"],
   },
   {
-    id: "2",
     location: "Dilapidated Dungeon - Slide",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -44,7 +40,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide"],
   },
   {
-    id: "3",
     location: "Dilapidated Dungeon - Alcove Near Mirror",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -67,7 +62,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "4",
     location: "Dilapidated Dungeon - Alcove Near Mirror",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -85,7 +79,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "5",
     location: "Dilapidated Dungeon - Alcove Near Mirror",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -109,7 +102,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "6",
     location: "Dilapidated Dungeon - Dark Orbs",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -127,7 +119,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "7",
     location: "Dilapidated Dungeon - Dark Orbs",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -146,7 +137,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "8",
     location: "Dilapidated Dungeon - Dark Orbs",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -164,7 +154,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "9",
     location: "Dilapidated Dungeon - Dark Orbs",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -184,7 +173,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "10",
     location: "Dilapidated Dungeon - Dark Orbs",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -202,7 +190,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "11",
     location: "Dilapidated Dungeon - Dark Orbs",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -226,7 +213,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "12",
     location: "Dilapidated Dungeon - Dark Orbs",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -245,7 +231,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "13",
     location: "Dilapidated Dungeon - Dark Orbs",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -263,7 +248,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "14",
     location: "Dilapidated Dungeon - Dark Orbs",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -281,7 +265,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "15",
     location: "Dilapidated Dungeon - Dark Orbs",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -298,7 +281,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "16",
     location: "Dilapidated Dungeon - Dark Orbs",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -318,7 +300,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "17",
     location: "Dilapidated Dungeon - Dark Orbs",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -341,7 +322,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "18",
     location: "Dilapidated Dungeon - Dark Orbs",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -359,7 +339,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "19",
     location: "Dilapidated Dungeon - Dark Orbs",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -377,7 +356,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "20",
     location: "Dilapidated Dungeon - Dark Orbs",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -396,7 +374,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "21",
     location: "Dilapidated Dungeon - Dark Orbs",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -414,7 +391,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "22",
     location: "Dilapidated Dungeon - Dark Orbs",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -432,7 +408,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "23",
     location: "Dilapidated Dungeon - Past Poles",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -458,7 +433,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "24",
     location: "Dilapidated Dungeon - Past Poles",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -485,7 +459,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "25",
     location: "Dilapidated Dungeon - Past Poles",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -512,7 +485,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "26",
     location: "Dilapidated Dungeon - Past Poles",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -525,7 +497,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "27",
     location: "Dilapidated Dungeon - Past Poles",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -539,7 +510,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "28",
     location: "Dilapidated Dungeon - Past Poles",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -553,7 +523,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "29",
     location: "Dilapidated Dungeon - Past Poles",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -580,7 +549,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "30",
     location: "Dilapidated Dungeon - Past Poles",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -607,7 +575,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "31",
     location: "Dilapidated Dungeon - Past Poles",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -620,7 +587,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "32",
     location: "Dilapidated Dungeon - Past Poles",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -633,7 +599,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "33",
     location: "Dilapidated Dungeon - Past Poles",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -659,7 +624,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "34",
     location: "Dilapidated Dungeon - Past Poles",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -685,7 +649,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "35",
     location: "Dilapidated Dungeon - Past Poles",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -698,7 +661,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "36",
     location: "Dilapidated Dungeon - Past Poles",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -711,7 +673,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "37",
     location: "Dilapidated Dungeon - Past Poles",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -738,7 +699,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "38",
     location: "Dilapidated Dungeon - Past Poles",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -751,7 +711,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "39",
     location: "Dilapidated Dungeon - Past Poles",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -764,7 +723,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "40",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -790,7 +748,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "41",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -817,7 +774,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "42",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -830,7 +786,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "43",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -844,7 +799,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "44",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -871,7 +825,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "45",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -898,7 +851,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "46",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -911,7 +863,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "47",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -925,7 +876,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "48",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -952,7 +902,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "49",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -979,7 +928,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "50",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -1005,7 +953,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "51",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -1019,7 +966,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "52",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -1033,7 +979,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "53",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -1046,7 +991,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "54",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -1073,7 +1017,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "55",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -1100,7 +1043,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "56",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -1113,7 +1055,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "57",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -1126,7 +1067,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "58",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -1152,7 +1092,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "59",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -1165,7 +1104,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "60",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -1177,7 +1115,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "61",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -1204,7 +1141,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "62",
     location: "Dilapidated Dungeon - Rafters",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -1216,7 +1152,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "63",
     location: "Dilapidated Dungeon - Strong Eyes",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -1241,7 +1176,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "64",
     location: "Dilapidated Dungeon - Strong Eyes",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -1253,7 +1187,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "65",
     location: "Dilapidated Dungeon - Strong Eyes",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -1281,7 +1214,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "66",
     location: "Dilapidated Dungeon - Strong Eyes",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -1295,7 +1227,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "67",
     location: "Dilapidated Dungeon - Strong Eyes",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -1322,7 +1253,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "68",
     location: "Dilapidated Dungeon - Strong Eyes",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -1335,7 +1265,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "69",
     location: "Dilapidated Dungeon - Strong Eyes",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -1348,7 +1277,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "70",
     location: "Dilapidated Dungeon - Strong Eyes",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -1360,7 +1288,6 @@ const rowData: RowData[] = [
     samplePath: ["Dungeon Mirror", "Dungeon Slide", "Dungeon Strong Eyes"],
   },
   {
-    id: "71",
     location: "Castle Sansa - Indignation",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -1382,7 +1309,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "72",
     location: "Castle Sansa - Indignation",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -1401,7 +1327,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "73",
     location: "Castle Sansa - Indignation",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -1424,7 +1349,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "74",
     location: "Castle Sansa - Alcove Near Dungeon",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -1448,7 +1372,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "75",
     location: "Castle Sansa - Alcove Near Dungeon",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -1473,7 +1396,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "76",
     location: "Castle Sansa - Alcove Near Dungeon",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -1499,7 +1421,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "77",
     location: "Castle Sansa - Alcove Near Dungeon",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -1524,7 +1445,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "78",
     location: "Castle Sansa - Alcove Near Dungeon",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -1554,7 +1474,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "79",
     location: "Castle Sansa - Alcove Near Dungeon",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -1579,7 +1498,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "80",
     location: "Castle Sansa - Alcove Near Dungeon",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -1602,7 +1520,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "81",
     location: "Castle Sansa - Alcove Near Dungeon",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -1627,7 +1544,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "82",
     location: "Castle Sansa - Alcove Near Dungeon",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -1652,7 +1568,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "83",
     location: "Castle Sansa - Alcove Near Dungeon",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -1676,7 +1591,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "84",
     location: "Castle Sansa - Alcove Near Dungeon",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -1700,7 +1614,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "85",
     location: "Castle Sansa - Alcove Near Dungeon",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -1726,7 +1639,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "86",
     location: "Castle Sansa - Alcove Near Dungeon",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -1750,7 +1662,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "87",
     location: "Castle Sansa - Balcony",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -1773,7 +1684,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "88",
     location: "Castle Sansa - Balcony",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -1798,7 +1708,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "89",
     location: "Castle Sansa - Balcony",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -1822,7 +1731,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "90",
     location: "Castle Sansa - Balcony",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -1848,7 +1756,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "91",
     location: "Castle Sansa - Balcony",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -1871,7 +1778,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "92",
     location: "Castle Sansa - Balcony",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -1891,7 +1797,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "93",
     location: "Castle Sansa - Balcony",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -1912,7 +1817,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "94",
     location: "Castle Sansa - Balcony",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -1932,7 +1836,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "95",
     location: "Castle Sansa - Balcony",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -1956,7 +1859,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "96",
     location: "Castle Sansa - Balcony",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -1982,7 +1884,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "97",
     location: "Castle Sansa - Balcony",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -2006,7 +1907,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "98",
     location: "Castle Sansa - Balcony",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -2031,7 +1931,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "99",
     location: "Castle Sansa - Balcony",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -2050,7 +1949,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "100",
     location: "Castle Sansa - Balcony",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -2074,7 +1972,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "101",
     location: "Castle Sansa - Balcony",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -2098,7 +1995,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "102",
     location: "Castle Sansa - Balcony",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -2122,7 +2018,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "103",
     location: "Castle Sansa - Balcony",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -2145,7 +2040,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "104",
     location: "Castle Sansa - Corner Corridor",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -2168,7 +2062,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "105",
     location: "Castle Sansa - Corner Corridor",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -2191,7 +2084,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "106",
     location: "Castle Sansa - Corner Corridor",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -2211,7 +2103,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "107",
     location: "Castle Sansa - Corner Corridor",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -2231,7 +2122,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "108",
     location: "Castle Sansa - Corner Corridor",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -2255,7 +2145,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "109",
     location: "Castle Sansa - Corner Corridor",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -2279,7 +2168,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "110",
     location: "Castle Sansa - Corner Corridor",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -2302,7 +2190,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "111",
     location: "Castle Sansa - Corner Corridor",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -2322,7 +2209,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "112",
     location: "Castle Sansa - Corner Corridor",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -2346,7 +2232,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "113",
     location: "Castle Sansa - Corner Corridor",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -2366,7 +2251,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "114",
     location: "Castle Sansa - Corner Corridor",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -2391,7 +2275,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "115",
     location: "Castle Sansa - Corner Corridor",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -2415,7 +2298,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "116",
     location: "Castle Sansa - Corner Corridor",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -2435,7 +2317,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "117",
     location: "Castle Sansa - Corner Corridor",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -2460,7 +2341,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "118",
     location: "Castle Sansa - Corner Corridor",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -2484,7 +2364,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "119",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -2507,7 +2386,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "120",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -2531,7 +2409,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "121",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -2555,7 +2432,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "122",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -2579,7 +2455,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "123",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -2603,7 +2478,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "124",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -2623,7 +2497,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "125",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -2643,7 +2516,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "126",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -2667,7 +2539,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "127",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -2691,7 +2562,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "128",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -2715,7 +2585,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "129",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -2739,7 +2608,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "130",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -2763,7 +2631,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "131",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -2786,7 +2653,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "132",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -2806,7 +2672,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "133",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -2830,7 +2695,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "134",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -2850,7 +2714,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "135",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -2873,7 +2736,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "136",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -2898,7 +2760,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "137",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -2922,7 +2783,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "138",
     location: "Castle Sansa - Floater In Courtyard",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -2946,7 +2806,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "139",
     location: "Castle Sansa - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -2969,7 +2828,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "140",
     location: "Castle Sansa - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -2993,7 +2851,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "141",
     location: "Castle Sansa - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -3012,7 +2869,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "142",
     location: "Castle Sansa - Platform In Main Halls",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -3035,7 +2891,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "143",
     location: "Castle Sansa - Platform In Main Halls",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -3058,7 +2913,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "144",
     location: "Castle Sansa - Platform In Main Halls",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -3081,7 +2935,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "145",
     location: "Castle Sansa - Platform In Main Halls",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -3100,7 +2953,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "146",
     location: "Castle Sansa - Platform In Main Halls",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -3123,7 +2975,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "147",
     location: "Castle Sansa - Platform In Main Halls",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -3146,7 +2997,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "148",
     location: "Castle Sansa - Platform In Main Halls",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -3169,7 +3019,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "149",
     location: "Castle Sansa - Platform In Main Halls",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -3192,7 +3041,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "150",
     location: "Castle Sansa - Tall Room Near Wheel Crawlers",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -3215,7 +3063,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "151",
     location: "Castle Sansa - Tall Room Near Wheel Crawlers",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -3239,7 +3086,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "152",
     location: "Castle Sansa - Tall Room Near Wheel Crawlers",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -3263,7 +3109,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "153",
     location: "Castle Sansa - Tall Room Near Wheel Crawlers",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -3283,7 +3128,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "154",
     location: "Castle Sansa - Tall Room Near Wheel Crawlers",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -3303,7 +3147,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "155",
     location: "Castle Sansa - Tall Room Near Wheel Crawlers",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -3327,7 +3170,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "156",
     location: "Castle Sansa - Tall Room Near Wheel Crawlers",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -3351,7 +3193,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "157",
     location: "Castle Sansa - Tall Room Near Wheel Crawlers",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -3374,7 +3215,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "158",
     location: "Castle Sansa - Tall Room Near Wheel Crawlers",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -3397,7 +3237,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "159",
     location: "Castle Sansa - Tall Room Near Wheel Crawlers",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -3417,7 +3256,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "160",
     location: "Castle Sansa - Tall Room Near Wheel Crawlers",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -3437,7 +3275,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "161",
     location: "Castle Sansa - Tall Room Near Wheel Crawlers",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -3461,7 +3298,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "162",
     location: "Castle Sansa - Tall Room Near Wheel Crawlers",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -3486,7 +3322,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "163",
     location: "Castle Sansa - Tall Room Near Wheel Crawlers",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -3511,7 +3346,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "164",
     location: "Castle Sansa - Tall Room Near Wheel Crawlers",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -3530,7 +3364,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "165",
     location: "Castle Sansa - Tall Room Near Wheel Crawlers",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -3554,7 +3387,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "166",
     location: "Castle Sansa - Tall Room Near Wheel Crawlers",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -3577,7 +3409,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "167",
     location: "Castle Sansa - Wheel Crawlers",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -3600,7 +3431,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "168",
     location: "Castle Sansa - Wheel Crawlers",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -3625,7 +3455,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "169",
     location: "Castle Sansa - Wheel Crawlers",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -3648,7 +3477,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "170",
     location: "Castle Sansa - Wheel Crawlers",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -3671,7 +3499,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "171",
     location: "Castle Sansa - Wheel Crawlers",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -3690,7 +3517,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "172",
     location: "Castle Sansa - Wheel Crawlers",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -3713,7 +3539,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "173",
     location: "Castle Sansa - Wheel Crawlers",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -3736,7 +3561,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "174",
     location: "Castle Sansa - Wheel Crawlers",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -3759,7 +3583,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "175",
     location: "Castle Sansa - Wheel Crawlers",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -3784,7 +3607,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "176",
     location: "Castle Sansa - Wheel Crawlers",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -3807,7 +3629,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "177",
     location: "Castle Sansa - High Climb From Courtyard",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -3832,7 +3653,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "178",
     location: "Castle Sansa - High Climb From Courtyard",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -3862,7 +3682,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "179",
     location: "Castle Sansa - High Climb From Courtyard",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -3894,7 +3713,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "180",
     location: "Castle Sansa - High Climb From Courtyard",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -3920,7 +3738,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "181",
     location: "Castle Sansa - High Climb From Courtyard",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -3942,7 +3759,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "182",
     location: "Castle Sansa - High Climb From Courtyard",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -3964,7 +3780,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "183",
     location: "Castle Sansa - High Climb From Courtyard",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -3990,7 +3805,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "184",
     location: "Castle Sansa - High Climb From Courtyard",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -4016,7 +3830,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "185",
     location: "Castle Sansa - High Climb From Courtyard",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -4042,7 +3855,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "186",
     location: "Castle Sansa - High Climb From Courtyard",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -4067,7 +3879,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "187",
     location: "Castle Sansa - High Climb From Courtyard",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -4089,7 +3900,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "188",
     location: "Castle Sansa - High Climb From Courtyard",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -4111,7 +3921,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "189",
     location: "Castle Sansa - High Climb From Courtyard",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -4137,7 +3946,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "190",
     location: "Castle Sansa - High Climb From Courtyard",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -4164,7 +3972,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "191",
     location: "Castle Sansa - High Climb From Courtyard",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -4191,7 +3998,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "192",
     location: "Castle Sansa - High Climb From Courtyard",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -4212,7 +4018,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "193",
     location: "Castle Sansa - High Climb From Courtyard",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -4238,7 +4043,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "194",
     location: "Castle Sansa - High Climb From Courtyard",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -4263,7 +4067,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "195",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -4285,7 +4088,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "196",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -4314,7 +4116,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "197",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -4345,7 +4146,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "198",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -4372,7 +4172,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "199",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -4397,7 +4196,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "200",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -4423,7 +4221,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "201",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -4446,7 +4243,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "202",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -4474,7 +4270,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "203",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -4504,7 +4299,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "204",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -4531,7 +4325,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "205",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -4560,7 +4353,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "206",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -4590,7 +4382,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "207",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -4615,7 +4406,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "208",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -4641,7 +4431,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "209",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -4663,7 +4452,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "210",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -4693,7 +4481,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "211",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -4719,7 +4506,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "212",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -4744,7 +4530,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "213",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -4769,7 +4554,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "214",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -4795,7 +4579,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "215",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -4823,7 +4606,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "216",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -4849,7 +4631,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "217",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -4878,7 +4659,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "218",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -4907,7 +4687,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "219",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -4932,7 +4711,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "220",
     location: "Castle Sansa - Alcove Near Scythe Corridor",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -4960,7 +4738,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "221",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -4982,7 +4759,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "222",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -5013,7 +4789,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "223",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -5042,7 +4817,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "224",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -5068,7 +4842,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "225",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -5093,7 +4866,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "226",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -5123,7 +4895,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "227",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -5152,7 +4923,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "228",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -5181,7 +4951,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "229",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -5209,7 +4978,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "230",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -5239,7 +5007,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "231",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -5266,7 +5033,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "232",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -5291,7 +5057,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "233",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -5317,7 +5082,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "234",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -5341,7 +5105,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "235",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -5369,7 +5132,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "236",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -5399,7 +5161,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "237",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -5427,7 +5188,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "238",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -5452,7 +5212,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "239",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -5480,7 +5239,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "240",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -5509,7 +5267,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "241",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -5538,7 +5295,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "242",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -5565,7 +5321,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "243",
     location: "Castle Sansa - Near Theatre Front",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -5593,7 +5348,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "244",
     location: "Sansa Keep - Strikebreak",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -5618,7 +5372,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "245",
     location: "Sansa Keep - Strikebreak",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -5643,7 +5396,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "246",
     location: "Sansa Keep - Strikebreak",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -5669,7 +5421,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "247",
     location: "Sansa Keep - Strikebreak",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -5695,7 +5446,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "248",
     location: "Sansa Keep - Strikebreak",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -5720,7 +5470,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "249",
     location: "Sansa Keep - Strikebreak",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -5745,7 +5494,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "250",
     location: "Sansa Keep - Strikebreak",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -5770,7 +5518,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "251",
     location: "Sansa Keep - Strikebreak",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -5795,7 +5542,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "252",
     location: "Sansa Keep - Strikebreak",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -5819,7 +5565,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "253",
     location: "Sansa Keep - Strikebreak",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -5844,7 +5589,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "254",
     location: "Sansa Keep - Alcove Near Locked Door",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -5869,7 +5613,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "255",
     location: "Sansa Keep - Alcove Near Locked Door",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -5894,7 +5637,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "256",
     location: "Sansa Keep - Alcove Near Locked Door",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -5920,7 +5662,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "257",
     location: "Sansa Keep - Alcove Near Locked Door",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -5946,7 +5687,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "258",
     location: "Sansa Keep - Alcove Near Locked Door",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -5972,7 +5712,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "259",
     location: "Sansa Keep - Alcove Near Locked Door",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -5998,7 +5737,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "260",
     location: "Sansa Keep - Alcove Near Locked Door",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -6019,7 +5757,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "261",
     location: "Sansa Keep - Alcove Near Locked Door",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -6045,7 +5782,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "262",
     location: "Sansa Keep - Alcove Near Locked Door",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -6071,7 +5807,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "263",
     location: "Sansa Keep - Alcove Near Locked Door",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -6095,7 +5830,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "264",
     location: "Sansa Keep - Alcove Near Locked Door",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -6120,7 +5854,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "265",
     location: "Sansa Keep - Levers Room",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -6143,7 +5876,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "266",
     location: "Sansa Keep - Levers Room",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -6163,7 +5895,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "267",
     location: "Sansa Keep - Levers Room",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -6187,7 +5918,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "268",
     location: "Sansa Keep - Lonely Throne",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -6212,7 +5942,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "269",
     location: "Sansa Keep - Lonely Throne",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -6238,7 +5967,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "270",
     location: "Sansa Keep - Lonely Throne",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -6259,7 +5987,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "271",
     location: "Sansa Keep - Lonely Throne",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -6280,7 +6007,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "272",
     location: "Sansa Keep - Lonely Throne",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -6301,7 +6027,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "273",
     location: "Sansa Keep - Lonely Throne",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -6326,7 +6051,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "274",
     location: "Sansa Keep - Lonely Throne",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -6351,7 +6075,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "275",
     location: "Sansa Keep - Lonely Throne",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -6371,7 +6094,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "276",
     location: "Sansa Keep - Lonely Throne",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -6391,7 +6113,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "277",
     location: "Sansa Keep - Lonely Throne",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -6411,7 +6132,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "278",
     location: "Sansa Keep - Lonely Throne",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -6436,7 +6156,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "279",
     location: "Sansa Keep - Lonely Throne",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -6462,7 +6181,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "280",
     location: "Sansa Keep - Lonely Throne",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -6481,7 +6199,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "281",
     location: "Sansa Keep - Lonely Throne",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -6507,7 +6224,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "282",
     location: "Sansa Keep - Lonely Throne",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -6536,7 +6252,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "283",
     location: "Sansa Keep - Near Theatre",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -6560,7 +6275,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "284",
     location: "Sansa Keep - Near Theatre",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -6584,7 +6298,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "285",
     location: "Sansa Keep - Near Theatre",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -6608,7 +6321,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "286",
     location: "Sansa Keep - Near Theatre",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -6628,7 +6340,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "287",
     location: "Sansa Keep - Near Theatre",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -6652,7 +6363,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "288",
     location: "Sansa Keep - Near Theatre",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -6676,7 +6386,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "289",
     location: "Sansa Keep - Sunsetter",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -6702,7 +6411,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "290",
     location: "Sansa Keep - Sunsetter",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -6728,7 +6436,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "291",
     location: "Sansa Keep - Sunsetter",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -6755,7 +6462,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "292",
     location: "Sansa Keep - Sunsetter",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -6780,7 +6486,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "293",
     location: "Sansa Keep - Sunsetter",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -6807,7 +6512,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "294",
     location: "Sansa Keep - Sunsetter",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -6829,7 +6533,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "295",
     location: "Sansa Keep - Sunsetter",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -6856,7 +6559,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "296",
     location: "Sansa Keep - Sunsetter",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -6882,7 +6584,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "297",
     location: "Sansa Keep - Sunsetter",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -6906,7 +6607,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "298",
     location: "Sansa Keep - Sunsetter",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -6931,7 +6631,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "299",
     location: "Listless Library - Sun Greaves",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -6957,7 +6656,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "300",
     location: "Listless Library - Sun Greaves",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -6984,7 +6682,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "301",
     location: "Listless Library - Sun Greaves",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -7011,7 +6708,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "302",
     location: "Listless Library - Sun Greaves",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -7036,7 +6732,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "303",
     location: "Listless Library - Sun Greaves",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -7057,7 +6752,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "304",
     location: "Listless Library - Sun Greaves",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -7084,7 +6778,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "305",
     location: "Listless Library - Sun Greaves",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -7112,7 +6805,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "306",
     location: "Listless Library - Sun Greaves",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -7140,7 +6832,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "307",
     location: "Listless Library - Sun Greaves",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -7166,7 +6857,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "308",
     location: "Listless Library - Sun Greaves",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -7192,7 +6882,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "309",
     location: "Listless Library - Sun Greaves",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -7218,7 +6907,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "310",
     location: "Listless Library - Sun Greaves",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -7244,7 +6932,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "311",
     location: "Listless Library - Sun Greaves",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -7272,7 +6959,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "312",
     location: "Listless Library - Sun Greaves",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -7299,7 +6985,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "313",
     location: "Listless Library - Sun Greaves",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -7326,7 +7011,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "314",
     location: "Listless Library - Sun Greaves",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -7352,7 +7036,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "315",
     location: "Listless Library - Sun Greaves",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -7380,7 +7063,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "316",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -7405,7 +7087,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "317",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -7431,7 +7112,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "318",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -7458,7 +7138,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "319",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -7486,7 +7165,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "320",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -7514,7 +7192,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "321",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -7536,7 +7213,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "322",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -7559,7 +7235,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "323",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -7585,7 +7260,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "324",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -7611,7 +7285,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "325",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -7639,7 +7312,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "326",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -7667,7 +7339,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "327",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -7692,7 +7363,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "328",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -7717,7 +7387,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "329",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -7743,7 +7412,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "330",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -7764,7 +7432,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "331",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -7790,7 +7457,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "332",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -7815,7 +7481,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "333",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -7840,7 +7505,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "334",
     location: "Listless Library - Upper Back",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -7865,7 +7529,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "335",
     location: "Listless Library - Locked Door Across",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -7891,7 +7554,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "336",
     location: "Listless Library - Locked Door Across",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -7917,7 +7579,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "337",
     location: "Listless Library - Locked Door Across",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -7939,7 +7600,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "338",
     location: "Listless Library - Locked Door Across",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -7966,7 +7626,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "339",
     location: "Listless Library - Locked Door Across",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -7988,7 +7647,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "340",
     location: "Listless Library - Locked Door Across",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -8015,7 +7673,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "341",
     location: "Listless Library - Locked Door Across",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -8037,7 +7694,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "342",
     location: "Listless Library - Locked Door Across",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -8059,7 +7715,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "343",
     location: "Listless Library - Locked Door Across",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -8085,7 +7740,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "344",
     location: "Listless Library - Locked Door Across",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -8111,7 +7765,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "345",
     location: "Listless Library - Locked Door Across",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -8132,7 +7785,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "346",
     location: "Listless Library - Locked Door Across",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -8153,7 +7805,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "347",
     location: "Listless Library - Locked Door Left",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -8179,7 +7830,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "348",
     location: "Listless Library - Locked Door Left",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -8206,7 +7856,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "349",
     location: "Listless Library - Locked Door Left",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -8229,7 +7878,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "350",
     location: "Listless Library - Locked Door Left",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -8255,7 +7903,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "351",
     location: "Listless Library - Locked Door Left",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -8282,7 +7929,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "352",
     location: "Listless Library - Locked Door Left",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -8304,7 +7950,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "353",
     location: "Listless Library - Locked Door Left",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -8327,7 +7972,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "354",
     location: "Listless Library - Locked Door Left",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -8354,7 +7998,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "355",
     location: "Listless Library - Locked Door Left",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -8376,7 +8019,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "356",
     location: "Listless Library - Locked Door Left",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -8402,7 +8044,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "357",
     location: "Listless Library - Locked Door Left",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -8429,7 +8070,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "358",
     location: "Listless Library - Locked Door Left",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -8451,7 +8091,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "359",
     location: "Listless Library - Locked Door Left",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -8478,7 +8117,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "360",
     location: "Listless Library - Locked Door Left",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -8499,7 +8137,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "361",
     location: "Twilight Theatre - Soul Cutter",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -8527,7 +8164,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "362",
     location: "Twilight Theatre - Soul Cutter",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -8556,7 +8192,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "363",
     location: "Twilight Theatre - Soul Cutter",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -8584,7 +8219,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "364",
     location: "Twilight Theatre - Soul Cutter",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -8613,7 +8247,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "365",
     location: "Twilight Theatre - Soul Cutter",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -8641,7 +8274,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "366",
     location: "Twilight Theatre - Soul Cutter",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -8669,7 +8301,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "367",
     location: "Twilight Theatre - Soul Cutter",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -8698,7 +8329,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "368",
     location: "Twilight Theatre - Soul Cutter",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -8726,7 +8356,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "369",
     location: "Twilight Theatre - Soul Cutter",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -8753,7 +8382,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "370",
     location: "Twilight Theatre - Soul Cutter",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -8781,7 +8409,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "371",
     location: "Twilight Theatre - Soul Cutter",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -8807,7 +8434,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "372",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -8834,7 +8460,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "373",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -8862,7 +8487,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "374",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -8889,7 +8513,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "375",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -8917,7 +8540,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "376",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -8944,7 +8566,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "377",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -8967,7 +8588,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "378",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -8990,7 +8610,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "379",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -9016,7 +8635,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "380",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -9042,7 +8660,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "381",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -9069,7 +8686,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "382",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -9097,7 +8713,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "383",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -9124,7 +8739,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "384",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -9148,7 +8762,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "385",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -9176,7 +8789,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "386",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -9199,7 +8811,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "387",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -9225,7 +8836,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "388",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -9252,7 +8862,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "389",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -9279,7 +8888,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "390",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -9305,7 +8913,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "391",
     location: "Twilight Theatre - Back Of Auditorium",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -9330,7 +8937,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "392",
     location: "Twilight Theatre - Center Stage",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -9361,7 +8967,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "393",
     location: "Twilight Theatre - Center Stage",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -9385,7 +8990,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "394",
     location: "Twilight Theatre - Center Stage",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -9414,7 +9018,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "395",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -9442,7 +9045,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "396",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -9471,7 +9073,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "397",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -9499,7 +9100,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "398",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -9524,7 +9124,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "399",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -9553,7 +9152,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "400",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -9576,7 +9174,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "401",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -9605,7 +9202,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "402",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -9632,7 +9228,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "403",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -9655,7 +9250,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "404",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -9683,7 +9277,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "405",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -9707,7 +9300,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "406",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -9731,7 +9323,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "407",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -9756,7 +9347,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "408",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -9784,7 +9374,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "409",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -9808,7 +9397,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "410",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -9835,7 +9423,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "411",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -9858,7 +9445,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "412",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -9881,7 +9467,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "413",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -9904,7 +9489,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "414",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -9931,7 +9515,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "415",
     location: "Twilight Theatre - Locked Door",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -9957,7 +9540,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "416",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -9984,7 +9566,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "417",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -10012,7 +9593,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "418",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -10039,7 +9619,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "419",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -10067,7 +9646,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "420",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -10094,7 +9672,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "421",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -10117,7 +9694,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "422",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -10140,7 +9716,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "423",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -10166,7 +9741,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "424",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -10192,7 +9766,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "425",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -10219,7 +9792,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "426",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -10247,7 +9819,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "427",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -10274,7 +9845,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "428",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -10298,7 +9868,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "429",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -10326,7 +9895,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "430",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -10349,7 +9917,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "431",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -10375,7 +9942,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "432",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -10402,7 +9968,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "433",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -10429,7 +9994,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "434",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -10455,7 +10019,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "435",
     location: "Twilight Theatre - Murderous Goat",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -10480,7 +10043,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "436",
     location: "Twilight Theatre - Corner Beam",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -10505,7 +10067,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "437",
     location: "Twilight Theatre - Corner Beam",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -10531,7 +10092,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "438",
     location: "Twilight Theatre - Corner Beam",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -10560,7 +10120,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "439",
     location: "Twilight Theatre - Corner Beam",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -10586,7 +10145,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "440",
     location: "Twilight Theatre - Corner Beam",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -10608,7 +10166,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "441",
     location: "Twilight Theatre - Corner Beam",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -10630,7 +10187,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "442",
     location: "Twilight Theatre - Corner Beam",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -10655,7 +10211,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "443",
     location: "Twilight Theatre - Corner Beam",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -10680,7 +10235,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "444",
     location: "Twilight Theatre - Corner Beam",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -10705,7 +10259,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "445",
     location: "Twilight Theatre - Corner Beam",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -10729,7 +10282,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "446",
     location: "Twilight Theatre - Corner Beam",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -10754,7 +10306,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "447",
     location: "Twilight Theatre - Corner Beam",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -10776,7 +10327,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "448",
     location: "Twilight Theatre - Corner Beam",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -10798,7 +10348,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "449",
     location: "Twilight Theatre - Corner Beam",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -10823,7 +10372,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "450",
     location: "Twilight Theatre - Corner Beam",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -10849,7 +10397,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "451",
     location: "Twilight Theatre - Corner Beam",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -10875,7 +10422,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "452",
     location: "Twilight Theatre - Corner Beam",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -10900,7 +10446,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "453",
     location: "Empty Bailey - Solar Wind",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -10922,7 +10467,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "454",
     location: "Empty Bailey - Solar Wind",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -10942,7 +10486,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "455",
     location: "Empty Bailey - Solar Wind",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -10965,7 +10508,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "456",
     location: "Empty Bailey - Center Steeple",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -10988,7 +10530,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "457",
     location: "Empty Bailey - Center Steeple",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -11012,7 +10553,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "458",
     location: "Empty Bailey - Center Steeple",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -11033,7 +10573,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "459",
     location: "Empty Bailey - Center Steeple",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -11055,7 +10594,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "460",
     location: "Empty Bailey - Center Steeple",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -11077,7 +10615,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "461",
     location: "Empty Bailey - Center Steeple",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -11100,7 +10637,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "462",
     location: "Empty Bailey - Center Steeple",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -11122,7 +10658,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "463",
     location: "Empty Bailey - Center Steeple",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -11144,7 +10679,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "464",
     location: "Empty Bailey - Cheese Bell",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -11167,7 +10701,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "465",
     location: "Empty Bailey - Cheese Bell",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -11191,7 +10724,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "466",
     location: "Empty Bailey - Cheese Bell",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -11215,7 +10747,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "467",
     location: "Empty Bailey - Cheese Bell",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -11237,7 +10768,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "468",
     location: "Empty Bailey - Cheese Bell",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -11260,7 +10790,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "469",
     location: "Empty Bailey - Cheese Bell",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -11283,7 +10812,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "470",
     location: "Empty Bailey - Cheese Bell",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -11307,7 +10835,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "471",
     location: "Empty Bailey - Cheese Bell",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -11330,7 +10857,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "472",
     location: "Empty Bailey - Cheese Bell",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -11352,7 +10878,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "473",
     location: "Empty Bailey - Cheese Bell",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -11375,7 +10900,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "474",
     location: "Empty Bailey - Cheese Bell",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -11397,7 +10921,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "475",
     location: "Empty Bailey - Cheese Bell",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -11421,7 +10944,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "476",
     location: "Empty Bailey - Cheese Bell",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -11444,7 +10966,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "477",
     location: "Empty Bailey - Guarded Hand",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -11466,7 +10987,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "478",
     location: "Empty Bailey - Guarded Hand",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -11490,7 +11010,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "479",
     location: "Empty Bailey - Guarded Hand",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -11512,7 +11031,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "480",
     location: "Empty Bailey - Guarded Hand",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -11533,7 +11051,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "481",
     location: "Empty Bailey - Guarded Hand",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -11555,7 +11072,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "482",
     location: "Empty Bailey - Guarded Hand",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -11576,7 +11092,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "483",
     location: "Empty Bailey - Guarded Hand",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -11599,7 +11114,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "484",
     location: "Empty Bailey - Inside Building",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -11621,7 +11135,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "485",
     location: "Empty Bailey - Inside Building",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -11641,7 +11154,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "486",
     location: "Empty Bailey - Inside Building",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -11664,7 +11176,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "487",
     location: "The Underbelly - Ascendant Light",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -11682,7 +11193,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "488",
     location: "The Underbelly - Ascendant Light",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -11702,7 +11212,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "489",
     location: "The Underbelly - Ascendant Light",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -11720,7 +11229,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "490",
     location: "The Underbelly - Ascendant Light",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -11738,7 +11246,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "491",
     location: "The Underbelly - Ascendant Light",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -11757,7 +11264,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "492",
     location: "The Underbelly - Ascendant Light",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -11783,7 +11289,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "493",
     location: "The Underbelly - Ascendant Light",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -11801,7 +11306,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "494",
     location: "The Underbelly - Ascendant Light",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -11818,7 +11322,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "495",
     location: "The Underbelly - Ascendant Light",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -11845,7 +11348,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "496",
     location: "The Underbelly - Alcove Near Light",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -11862,7 +11364,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "497",
     location: "The Underbelly - Alcove Near Light",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -11888,7 +11389,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "498",
     location: "The Underbelly - Alcove Near Light",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -11906,7 +11406,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "499",
     location: "The Underbelly - Alcove Near Light",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -11932,7 +11431,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "500",
     location: "The Underbelly - Building Near Little Guy",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -11953,7 +11451,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "501",
     location: "The Underbelly - Building Near Little Guy",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -11974,7 +11471,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "502",
     location: "The Underbelly - Building Near Little Guy",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -11996,7 +11492,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "503",
     location: "The Underbelly - Building Near Little Guy",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -12017,7 +11512,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "504",
     location: "The Underbelly - Building Near Little Guy",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -12038,7 +11532,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "505",
     location: "The Underbelly - Building Near Little Guy",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -12059,7 +11552,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "506",
     location: "The Underbelly - Building Near Little Guy",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -12080,7 +11572,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "507",
     location: "The Underbelly - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -12103,7 +11594,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "508",
     location: "The Underbelly - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -12125,7 +11615,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "509",
     location: "The Underbelly - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -12146,7 +11635,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "510",
     location: "The Underbelly - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -12169,7 +11657,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "511",
     location: "The Underbelly - Locked Door",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -12193,7 +11680,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "512",
     location: "The Underbelly - Locked Door",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -12215,7 +11701,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "513",
     location: "The Underbelly - Locked Door",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -12236,7 +11721,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "514",
     location: "The Underbelly - Locked Door",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -12259,7 +11743,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "515",
     location: "The Underbelly - Locked Door",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -12281,7 +11764,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "516",
     location: "The Underbelly - Main Room",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -12300,7 +11782,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "517",
     location: "The Underbelly - Main Room",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -12321,7 +11802,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "518",
     location: "The Underbelly - Main Room",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -12340,7 +11820,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "519",
     location: "The Underbelly - Main Room",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -12359,7 +11838,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "520",
     location: "The Underbelly - Main Room",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -12385,7 +11863,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "521",
     location: "The Underbelly - Main Room",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -12411,7 +11888,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "522",
     location: "The Underbelly - Main Room",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -12430,7 +11906,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "523",
     location: "The Underbelly - Main Room",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -12450,7 +11925,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "524",
     location: "The Underbelly - Main Room",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -12475,7 +11949,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "525",
     location: "The Underbelly - Main Room",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -12494,7 +11967,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "526",
     location: "The Underbelly - Main Room",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -12513,7 +11985,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "527",
     location: "The Underbelly - Rafters Near Keep",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -12539,7 +12010,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "528",
     location: "The Underbelly - Rafters Near Keep",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -12566,7 +12036,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "529",
     location: "The Underbelly - Rafters Near Keep",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -12588,7 +12057,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "530",
     location: "The Underbelly - Rafters Near Keep",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -12614,7 +12082,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "531",
     location: "The Underbelly - Rafters Near Keep",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -12636,7 +12103,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "532",
     location: "The Underbelly - Rafters Near Keep",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -12662,7 +12128,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "533",
     location: "The Underbelly - Rafters Near Keep",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -12688,7 +12153,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "534",
     location: "The Underbelly - Rafters Near Keep",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -12709,7 +12173,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "535",
     location: "The Underbelly - Rafters Near Keep",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -12735,7 +12198,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "536",
     location: "The Underbelly - Strikebreak Wall",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -12755,7 +12217,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "537",
     location: "The Underbelly - Strikebreak Wall",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -12776,7 +12237,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "538",
     location: "The Underbelly - Strikebreak Wall",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -12796,7 +12256,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "539",
     location: "The Underbelly - Strikebreak Wall",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -12816,7 +12275,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "540",
     location: "The Underbelly - Strikebreak Wall",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -12837,7 +12295,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "541",
     location: "The Underbelly - Strikebreak Wall",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -12858,7 +12315,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "542",
     location: "The Underbelly - Strikebreak Wall",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -12879,7 +12335,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "543",
     location: "The Underbelly - Strikebreak Wall",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -12900,7 +12355,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "544",
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -12924,7 +12378,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "545",
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -12949,7 +12402,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "546",
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -12973,7 +12425,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "547",
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -12999,7 +12450,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "548",
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -13024,7 +12474,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "549",
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -13048,7 +12497,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "550",
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -13070,7 +12518,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "551",
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -13094,7 +12541,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "552",
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -13116,7 +12562,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "553",
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -13140,7 +12585,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "554",
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -13163,7 +12607,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "555",
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -13186,7 +12629,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "556",
     location: "The Underbelly - Surrounded By Holes",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -13210,7 +12652,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "557",
     location: "Tower Remains - Cling Gem",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -13236,7 +12677,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "558",
     location: "Tower Remains - Cling Gem",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -13262,7 +12702,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "559",
     location: "Tower Remains - Cling Gem",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -13285,7 +12724,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "560",
     location: "Tower Remains - Cling Gem",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -13309,7 +12747,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "561",
     location: "Tower Remains - Cling Gem",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -13333,7 +12770,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "562",
     location: "Tower Remains - Cling Gem",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -13356,7 +12792,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "563",
     location: "Tower Remains - Cling Gem",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -13380,7 +12815,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "564",
     location: "Tower Remains - Cling Gem",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -13403,7 +12837,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "565",
     location: "Tower Remains - Cling Gem",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -13427,7 +12860,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "566",
     location: "Tower Remains - Cling Gem",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -13449,7 +12881,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "567",
     location: "Tower Remains - Cling Gem",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -13473,7 +12904,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "568",
     location: "Tower Remains - Cling Gem",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -13496,7 +12926,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "569",
     location: "Tower Remains - Atop The Tower",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -13524,7 +12953,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "570",
     location: "Tower Remains - Atop The Tower",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -13552,7 +12980,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "571",
     location: "Tower Remains - Atop The Tower",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -13577,7 +13004,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "572",
     location: "Tower Remains - Atop The Tower",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -13603,7 +13029,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "573",
     location: "Tower Remains - Atop The Tower",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -13629,7 +13054,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "574",
     location: "Tower Remains - Atop The Tower",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -13654,7 +13078,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "575",
     location: "Tower Remains - Atop The Tower",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -13680,7 +13103,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "576",
     location: "Tower Remains - Atop The Tower",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -13705,7 +13127,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "577",
     location: "Tower Remains - Atop The Tower",
     difficulty: Difficulty.Hard,
     obscure: true,
@@ -13731,7 +13152,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "578",
     location: "Tower Remains - Atop The Tower",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -13755,7 +13175,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "579",
     location: "Tower Remains - Atop The Tower",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -13779,7 +13198,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "580",
     location: "Tower Remains - Atop The Tower",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -13804,7 +13222,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "581",
     location: "Tower Remains - Atop The Tower",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -13830,7 +13247,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "582",
     location: "Tower Remains - Atop The Tower",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -13856,7 +13272,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "583",
     location: "Tower Remains - Atop The Tower",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -13882,7 +13297,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "584",
     location: "Tower Remains - Atop The Tower",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -13907,7 +13321,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "585",
     location: "Tower Remains - Atop The Tower",
     difficulty: Difficulty.Lunatic,
     obscure: true,
@@ -13932,7 +13345,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "586",
     location: "D S T RT ED M M O   Y",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -13961,7 +13373,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "587",
     location: "D S T RT ED M M O   Y",
     difficulty: Difficulty.Normal,
     obscure: false,
@@ -13990,7 +13401,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "588",
     location: "D S T RT ED M M O   Y",
     difficulty: Difficulty.Normal,
     obscure: true,
@@ -14017,7 +13427,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "589",
     location: "D S T RT ED M M O   Y",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -14043,7 +13452,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "590",
     location: "D S T RT ED M M O   Y",
     difficulty: Difficulty.Hard,
     obscure: false,
@@ -14070,7 +13478,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "591",
     location: "D S T RT ED M M O   Y",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -14096,7 +13503,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "592",
     location: "D S T RT ED M M O   Y",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -14123,7 +13529,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "593",
     location: "D S T RT ED M M O   Y",
     difficulty: Difficulty.Expert,
     obscure: true,
@@ -14149,7 +13554,6 @@ const rowData: RowData[] = [
     ],
   },
   {
-    id: "594",
     location: "D S T RT ED M M O   Y",
     difficulty: Difficulty.Lunatic,
     obscure: true,
