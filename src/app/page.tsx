@@ -70,6 +70,7 @@ export default function PathingLogic() {
             ))}
         </tbody>
       </table>
+      <div className="h-[30vh]"/>
     </div>
   );
 }
