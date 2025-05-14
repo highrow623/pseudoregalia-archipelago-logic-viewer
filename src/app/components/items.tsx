@@ -37,6 +37,7 @@ export function ItemIcons({ items, inHeader }: ItemIconsProps) {
     toggleClingGem,
     toggleAscendantLight,
     toggleSmallKeys,
+    toggleMajorKeys,
   } = useItems();
 
   return (
@@ -149,6 +150,18 @@ export function ItemIcons({ items, inHeader }: ItemIconsProps) {
           }
           alt="Small Keys"
           width={24}
+          height={24}
+        />
+      </ClickWrapper>
+      <ClickWrapper enabled={inHeader} onClick={toggleMajorKeys}>
+        <Image
+          src={
+            items.majorKeys
+              ? "/pseudoregalia-archipelago-logic-viewer/items/ui_BigKey.png"
+              : "/pseudoregalia-archipelago-logic-viewer/items/ui_BigKey_grey.png"
+          }
+          alt="Major Keys"
+          width={48}
           height={24}
         />
       </ClickWrapper>

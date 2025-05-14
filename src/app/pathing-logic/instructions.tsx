@@ -63,12 +63,13 @@ type ItemDescriptionProps = {
   src: string;
   alt: string;
   children: ReactNode;
+  big?: boolean;
 };
 
-function ItemDescription({ src, alt, children }: ItemDescriptionProps) {
+function ItemDescription({ src, alt, children, big }: ItemDescriptionProps) {
   return (
     <div className="mt-2 flex">
-      <Image src={src} alt={alt} width={48} height={48} />
+      <Image src={src} alt={alt} width={big ? 96 : 48} height={48} />
       <p className="ml-4 pt-3">{children}</p>
     </div>
   );
@@ -239,6 +240,13 @@ export default function Instructions() {
         >
           &quot;Enough&quot; small keys. This is 7 for <Normal /> and 6 for{" "}
           <Hard /> and higher
+        </ItemDescription>
+        <ItemDescription
+          src="/pseudoregalia-archipelago-logic-viewer/items/ui_BigKey.png"
+          alt="Major Keys"
+          big
+        >
+          All 5 Major Keys
         </ItemDescription>
         <Paragraph>
           You can toggle items on and off by clicking the corresponding icons in
