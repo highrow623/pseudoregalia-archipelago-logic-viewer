@@ -63,12 +63,13 @@ type ItemDescriptionProps = {
   src: string;
   alt: string;
   children: ReactNode;
+  big?: boolean;
 };
 
-function ItemDescription({ src, alt, children }: ItemDescriptionProps) {
+function ItemDescription({ src, alt, children, big }: ItemDescriptionProps) {
   return (
     <div className="mt-2 flex">
-      <Image src={src} alt={alt} width={48} height={48} />
+      <Image src={src} alt={alt} width={big ? 96 : 48} height={48} />
       <p className="ml-4 pt-3">{children}</p>
     </div>
   );
@@ -240,6 +241,13 @@ export default function Instructions() {
           &quot;Enough&quot; small keys. This is 7 for <Normal /> and 6 for{" "}
           <Hard /> and higher
         </ItemDescription>
+        <ItemDescription
+          src="/pseudoregalia-archipelago-logic-viewer/items/ui_BigKey.png"
+          alt="Major Keys"
+          big
+        >
+          All 5 Major Keys
+        </ItemDescription>
         <Paragraph>
           You can toggle items on and off by clicking the corresponding icons in
           the <Bold>Items</Bold> header. (Clicking the Kicks icon will cycle the
@@ -251,6 +259,20 @@ export default function Instructions() {
           Each route in the table represents getting to a location with a
           certain set of items, but there may be multiple ways to actually
           navigate the world to get there. This column gives one possibility.
+        </Paragraph>
+        <Paragraph>
+          All logic in Archipelago begins at game start because there is an
+          underlying assumption that you always have access to that region. You
+          don&apos;t need to traverse the whole path to get the item; just skip
+          to the furthest place you know you have access to.
+        </Paragraph>
+        <Paragraph>
+          The sample paths were determined algorithmically by traversing the
+          region graph in the apworld. The path chosen is one with the least
+          number of regions, so there is no guarantee that it is the shortest or
+          the easiest path. They may not be the most useful thing, but the idea
+          is to give an idea of how the logic expects you to get to the
+          location.
         </Paragraph>
         <Paragraph>
           Hover over the icon in the row to see a tooltip with the sample path.

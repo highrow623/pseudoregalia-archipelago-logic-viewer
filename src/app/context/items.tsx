@@ -14,6 +14,7 @@ export type Items = {
   clingGem: boolean;
   ascendantLight: boolean;
   smallKeys: boolean;
+  majorKeys: boolean;
 };
 
 export const noItems: Items = {
@@ -27,6 +28,7 @@ export const noItems: Items = {
   clingGem: false,
   ascendantLight: false,
   smallKeys: false,
+  majorKeys: false,
 };
 
 export const allItems: Items = {
@@ -40,6 +42,7 @@ export const allItems: Items = {
   clingGem: true,
   ascendantLight: true,
   smallKeys: true,
+  majorKeys: true,
 };
 
 export function hasRequiredItems(items: Items, required: Items) {
@@ -73,6 +76,9 @@ export function hasRequiredItems(items: Items, required: Items) {
   if (required.smallKeys && !items.smallKeys) {
     return false;
   }
+  if (required.majorKeys && !items.majorKeys) {
+    return false;
+  }
   return true;
 }
 
@@ -88,6 +94,7 @@ type itemsContextType = {
   toggleClingGem: () => void;
   toggleAscendantLight: () => void;
   toggleSmallKeys: () => void;
+  toggleMajorKeys: () => void;
 };
 
 const itemsContextDefaultValues: itemsContextType = {
@@ -102,6 +109,7 @@ const itemsContextDefaultValues: itemsContextType = {
   toggleClingGem: () => {},
   toggleAscendantLight: () => {},
   toggleSmallKeys: () => {},
+  toggleMajorKeys: () => {},
 };
 
 const ItemsContext = createContext<itemsContextType>(itemsContextDefaultValues);
@@ -187,6 +195,13 @@ export function ItemsProvider({ children }: Props) {
     });
   };
 
+  const toggleMajorKeys = () => {
+    setItems({
+      ...items,
+      majorKeys: !items.majorKeys,
+    });
+  };
+
   const value = {
     items,
     toggleDreamBreaker,
@@ -199,6 +214,7 @@ export function ItemsProvider({ children }: Props) {
     toggleClingGem,
     toggleAscendantLight,
     toggleSmallKeys,
+    toggleMajorKeys,
   };
 
   return (

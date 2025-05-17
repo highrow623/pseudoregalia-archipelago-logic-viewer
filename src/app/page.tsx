@@ -5,7 +5,7 @@ import Instructions from "./pathing-logic/instructions";
 import { DifficultyIcon } from "./components/difficulty";
 import ObscureIcon from "./components/obscure";
 import { ItemIcons } from "./components/items";
-import rowData from "./data/pathing";
+import rowData, { RowData } from "./data/pathing";
 import { useDifficulty } from "./context/difficulty";
 import ClickWrapper from "./components/clickWrapper";
 import { useItems, hasRequiredItems } from "./context/items";
@@ -20,7 +20,7 @@ export default function PathingLogic() {
       <p className="text-slate-200 text-3xl ml-1">
         Pseudoregalia Archipelago Logic Viewer
       </p>
-      <p className="text-slate-400 text-xl mt-2 ml-1">apworld version: 0.8.0</p>
+      <p className="text-slate-400 text-xl mt-2 ml-1">apworld version: 0.8.1</p>
       <br />
       <Instructions />
       <br />
@@ -59,17 +59,19 @@ export default function PathingLogic() {
         </thead>
         <tbody>
           {rowData
+            .map((data, index): [RowData, number] => [data, index])
             .filter(
-              (data) =>
+              ([data]) =>
                 data.difficulty <= difficulty &&
                 (obscure || !data.obscure) &&
                 hasRequiredItems(items, data.items),
             )
-            .map((data) => (
-              <TableRow key={data.id} rowData={data} />
+            .map(([data, index]) => (
+              <TableRow key={index} rowData={data} />
             ))}
         </tbody>
       </table>
+      <div className="h-[30vh]" />
     </div>
   );
 }
