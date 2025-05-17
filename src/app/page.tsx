@@ -20,7 +20,7 @@ export default function PathingLogic() {
       <p className="text-slate-200 text-3xl ml-1">
         Pseudoregalia Archipelago Logic Viewer
       </p>
-      <p className="text-slate-400 text-xl mt-2 ml-1">apworld version: 0.8.0</p>
+      <p className="text-slate-400 text-xl mt-2 ml-1">apworld version: 0.8.1</p>
       <br />
       <Instructions />
       <br />
