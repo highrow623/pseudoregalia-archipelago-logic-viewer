@@ -269,10 +269,10 @@ export default function Instructions() {
         <Paragraph>
           The sample paths were determined algorithmically by traversing the
           region graph in the apworld. The path chosen is one with the least
-          number of regions, so there is no guarantee that it is the shortest or
-          the easiest path. They may not be the most useful thing, but the idea
-          is to give an idea of how the logic expects you to get to the
-          location.
+          number of regions, so there is no guarantee that it is actually the
+          shortest or the easiest path. They may not be the most useful thing,
+          but the purpose is to give some idea of how the logic might expect you
+          to get to the location.
         </Paragraph>
         <Paragraph>
           Hover over the icon in the row to see a tooltip with the sample path.
